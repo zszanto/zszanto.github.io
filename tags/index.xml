@@ -5,12 +5,60 @@
     <link>https://zszanto.github.io/tags/</link>
       <atom:link href="https://zszanto.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`2019`</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`2019`</copyright><lastBuildDate>Sun, 15 Jan 2017 00:00:00 +0200</lastBuildDate>
     <image>
       <url>https://zszanto.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://zszanto.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Brain Tumor</title>
+      <link>https://zszanto.github.io/tags/brain-tumor/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/tags/brain-tumor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyber-security</title>
+      <link>https://zszanto.github.io/tags/cyber-security/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/tags/cyber-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SERENITI</title>
+      <link>https://zszanto.github.io/tags/sereniti/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/tags/sereniti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NS2</title>
+      <link>https://zszanto.github.io/tags/ns2/</link>
+      <pubDate>Fri, 15 Jan 2016 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/tags/ns2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote robot control</title>
+      <link>https://zszanto.github.io/tags/remote-robot-control/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/tags/remote-robot-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teleoperation</title>
+      <link>https://zszanto.github.io/tags/teleoperation/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/tags/teleoperation/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

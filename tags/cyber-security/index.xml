@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyber-security | Zoltán Szántó&#39;s website</title>
+    <link>https://zszanto.github.io/tags/cyber-security/</link>
+      <atom:link href="https://zszanto.github.io/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cyber-security</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`2019`</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://zszanto.github.io/img/icon-192.png</url>
+      <title>Cyber-security</title>
+      <link>https://zszanto.github.io/tags/cyber-security/</link>
+    </image>
+    
+    <item>
+      <title>SERENITI</title>
+      <link>https://zszanto.github.io/project/sereniti/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/project/sereniti/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://zszanto.github.io/publication/sandor-2019-cyber/</loc>
-    <lastmod>2019-10-16T09:12:01+03:00</lastmod>
+    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://zszanto.github.io/</loc>
-    <lastmod>2019-10-16T09:12:01+03:00</lastmod>
+    <lastmod>2019-10-21T23:34:44+03:00</lastmod>
   </url>
   
   <url>
@@ -23,6 +23,26 @@
   </url>
   
   <url>
+    <loc>https://zszanto.github.io/tags/brain-tumor/</loc>
+    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/project/kpi-ll/</loc>
+    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/project/</loc>
+    <lastmod>2019-10-21T23:34:44+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/tags/</loc>
+    <lastmod>2019-10-21T23:34:44+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zszanto.github.io/publication/marton-2017-internet/</loc>
     <lastmod>2019-10-16T09:12:01+03:00</lastmod>
   </url>
@@ -30,6 +50,31 @@
   <url>
     <loc>https://zszanto.github.io/publication/sandor-2017-sensor/</loc>
     <lastmod>2019-10-16T09:12:01+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/tags/cyber-security/</loc>
+    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/tags/sereniti/</loc>
+    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/project/sereniti/</loc>
+    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/project/aiss-vt/</loc>
+    <lastmod>2019-10-21T23:34:44+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/tags/ns2/</loc>
+    <lastmod>2019-10-21T23:34:44+03:00</lastmod>
   </url>
   
   <url>
@@ -113,8 +158,23 @@
   </url>
   
   <url>
+    <loc>https://zszanto.github.io/tags/remote-robot-control/</loc>
+    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/tags/teleoperation/</loc>
+    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/project/to/</loc>
+    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zszanto.github.io/authors/admin/</loc>
-    <lastmod>2019-10-18T12:44:01+03:00</lastmod>
+    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
   </url>
   
   <url>
@@ -138,10 +198,6 @@
   <url>
     <loc>https://zszanto.github.io/talk/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/tags/</loc>
   </url>
   
 </urlset>

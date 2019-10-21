@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remote robot control | Zoltán Szántó&#39;s website</title>
+    <link>https://zszanto.github.io/tags/remote-robot-control/</link>
+      <atom:link href="https://zszanto.github.io/tags/remote-robot-control/index.xml" rel="self" type="application/rss+xml" />
+    <description>Remote robot control</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`2019`</copyright><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://zszanto.github.io/img/icon-192.png</url>
+      <title>Remote robot control</title>
+      <link>https://zszanto.github.io/tags/remote-robot-control/</link>
+    </image>
+    
+    <item>
+      <title>TO</title>
+      <link>https://zszanto.github.io/project/to/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/project/to/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

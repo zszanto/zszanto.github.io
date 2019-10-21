@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NS2 | Zoltán Szántó&#39;s website</title>
+    <link>https://zszanto.github.io/tags/ns2/</link>
+      <atom:link href="https://zszanto.github.io/tags/ns2/index.xml" rel="self" type="application/rss+xml" />
+    <description>NS2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`2019`</copyright><lastBuildDate>Fri, 15 Jan 2016 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://zszanto.github.io/img/icon-192.png</url>
+      <title>NS2</title>
+      <link>https://zszanto.github.io/tags/ns2/</link>
+    </image>
+    
+    <item>
+      <title>Data traffic control in wireless networks for moving agents</title>
+      <link>https://zszanto.github.io/project/aiss-vt/</link>
+      <pubDate>Fri, 15 Jan 2016 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/project/aiss-vt/</guid>
+      <description>
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;The purpose of the IIoT is not only to sense the environment but also to perform actions on it. The agents performing the actions are mostly controlled remotely trough network by human operators or other agents capable to make-decisions. The main goal of the project is the development and testing such control algorithms and real-time communication protocols that can be applied to network controlled systems. During the control algorithm development we take explicitly into consideration of network induced delays, information loses. In our previous work we focused on the systems with a single hop environment. The proposed algorithms we intend to evaluate in diverse network situation like multi hop wireless networks with static and mobile agent. For this purpose, we would like to use a co-simulation environment Matlab and NS2, or other network simulation tools.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
