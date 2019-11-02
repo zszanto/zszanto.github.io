@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Zoltán Szántó&#39;s website</title>
+    <link>https://zszanto.github.io/publication_types/2/</link>
+      <atom:link href="https://zszanto.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`2019`</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zszanto.github.io/img/icon-192.png</url>
+      <title>2</title>
+      <link>https://zszanto.github.io/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Cyber attack detection and mitigation: Software Defined Survivable Industrial Control Systems</title>
+      <link>https://zszanto.github.io/publication/sandor-2019-cyber/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/sandor-2019-cyber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet-based bilateral teleoperation using a revised time-domain passivity controller</title>
+      <link>https://zszanto.github.io/publication/marton-2017-internet/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2017-internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data transfer regulator for wireless teleoperation</title>
+      <link>https://zszanto.github.io/publication/marton-2016-data/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2016-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear PI rate control in bottleneck links: Application to teleoperation systems</title>
+      <link>https://zszanto.github.io/publication/marton-2015-nonlinear/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2015-nonlinear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bilateral teleoperation of wheeled mobile robots working in common workspace</title>
+      <link>https://zszanto.github.io/publication/marton-2014-bilateral/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2014-bilateral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot control using Q-Learning</title>
+      <link>https://zszanto.github.io/publication/szanto-2012-robot/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2012-robot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

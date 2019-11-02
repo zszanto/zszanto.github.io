@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zszanto.github.io/publication_types/2/</loc>
+    <lastmod>2019-10-22T14:42:03+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zszanto.github.io/publication/sandor-2019-cyber/</loc>
     <lastmod>2019-10-21T23:26:31+03:00</lastmod>
   </url>
   
   <url>
+    <loc>https://zszanto.github.io/publication_types/</loc>
+    <lastmod>2019-11-02T12:17:02+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zszanto.github.io/</loc>
+    <lastmod>2019-11-02T12:17:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/publication_types/1/</loc>
     <lastmod>2019-10-22T14:42:03+03:00</lastmod>
   </url>
   
@@ -23,22 +38,12 @@
   </url>
   
   <url>
-    <loc>https://zszanto.github.io/tags/brain-tumor/</loc>
-    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zszanto.github.io/project/kpi-ll/</loc>
     <lastmod>2019-10-21T23:26:31+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://zszanto.github.io/project/</loc>
-    <lastmod>2019-10-21T23:34:44+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/tags/</loc>
     <lastmod>2019-10-21T23:34:44+03:00</lastmod>
   </url>
   
@@ -53,16 +58,6 @@
   </url>
   
   <url>
-    <loc>https://zszanto.github.io/tags/cyber-security/</loc>
-    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/tags/sereniti/</loc>
-    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zszanto.github.io/project/sereniti/</loc>
     <lastmod>2019-10-21T23:26:31+03:00</lastmod>
   </url>
@@ -73,8 +68,8 @@
   </url>
   
   <url>
-    <loc>https://zszanto.github.io/tags/ns2/</loc>
-    <lastmod>2019-10-21T23:34:44+03:00</lastmod>
+    <loc>https://zszanto.github.io/publication_types/6/</loc>
+    <lastmod>2019-11-02T12:17:02+02:00</lastmod>
   </url>
   
   <url>
@@ -119,7 +114,7 @@
   
   <url>
     <loc>https://zszanto.github.io/publication/szanto-2014-supervised/</loc>
-    <lastmod>2019-10-16T09:12:01+03:00</lastmod>
+    <lastmod>2019-11-02T12:17:02+02:00</lastmod>
   </url>
   
   <url>
@@ -130,6 +125,11 @@
   <url>
     <loc>https://zszanto.github.io/publication/vajda-2014-effect/</loc>
     <lastmod>2019-10-22T14:42:03+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/publication_types/0/</loc>
+    <lastmod>2019-10-16T09:12:01+03:00</lastmod>
   </url>
   
   <url>
@@ -158,31 +158,17 @@
   </url>
   
   <url>
-    <loc>https://zszanto.github.io/tags/remote-robot-control/</loc>
-    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/tags/teleoperation/</loc>
-    <lastmod>2019-10-21T23:26:31+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zszanto.github.io/project/to/</loc>
     <lastmod>2019-10-21T23:26:31+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://zszanto.github.io/authors/admin/</loc>
-    <lastmod>2019-10-30T10:01:19+02:00</lastmod>
+    <lastmod>2019-11-02T12:18:08+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://zszanto.github.io/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/categories/</loc>
   </url>
   
   <url>
