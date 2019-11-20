@@ -3,6 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zszanto.github.io/teaching/se/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/teaching/se-proj/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/teaching/vv/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/teaching/se2msc/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/teaching/se/course/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/teaching/se2msc/course/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/teaching/vv/course/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/teaching/se/lab/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/teaching/vv/lab/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/</loc>
+    <lastmod>2019-11-05T19:41:44+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zszanto.github.io/publication_types/2/</loc>
     <lastmod>2019-10-22T14:42:03+03:00</lastmod>
   </url>
@@ -15,11 +64,6 @@
   <url>
     <loc>https://zszanto.github.io/publication_types/</loc>
     <lastmod>2019-11-02T12:17:02+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/</loc>
-    <lastmod>2019-11-05T19:41:44+02:00</lastmod>
   </url>
   
   <url>
@@ -172,6 +216,11 @@
   </url>
   
   <url>
+    <loc>https://zszanto.github.io/teaching/</loc>
+    <lastmod>2019-11-12T20:47:32+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zszanto.github.io/post/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
@@ -184,11 +233,6 @@
   <url>
     <loc>https://zszanto.github.io/talk/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/teaching/</loc>
-    <lastmod>2019-11-05T19:20:49+02:00</lastmod>
   </url>
   
 </urlset>
