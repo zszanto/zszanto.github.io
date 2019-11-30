@@ -17,10 +17,8 @@
       <link>https://zszanto.github.io/teaching/se/course/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://zszanto.github.io/teaching/se/course/</guid>
-      <description>&lt;p&gt;The course can be found &lt;a href=&#34;https://forms.gle/FT6Vmn65LoLtE7fb7&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
+      <description>&lt;p&gt;The course can be found &lt;a href=&#34;https://forms.gle/FT6Vmn65LoLtE7fb7&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Final exam:&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;20 multiple choice questions from the course material and literature&lt;/li&gt;
 &lt;li&gt;0.5 points for each correctly answered question&lt;/li&gt;
@@ -35,7 +33,7 @@
       <link>https://zszanto.github.io/teaching/se2msc/course/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://zszanto.github.io/teaching/se2msc/course/</guid>
-      <description>&lt;p&gt;The course can be found &lt;a href=&#34;https://forms.gle/RrwXKuaSsr75gePz8&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The course can be found &lt;a href=&#34;https://forms.gle/RrwXKuaSsr75gePz8&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -44,7 +42,7 @@
       <link>https://zszanto.github.io/teaching/vv/course/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://zszanto.github.io/teaching/vv/course/</guid>
-      <description>&lt;p&gt;The course can be found &lt;a href=&#34;https://forms.gle/tePGZsCtTp1xDHcH6&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The course can be found &lt;a href=&#34;https://forms.gle/tePGZsCtTp1xDHcH6&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -53,7 +51,7 @@
       <link>https://zszanto.github.io/teaching/se/lab/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://zszanto.github.io/teaching/se/lab/</guid>
-      <description>&lt;p&gt;The lab documentation can be found [here]().&lt;/p&gt;
+      <description>&lt;p&gt;The lab documentation can be found &lt;a href=&#34;&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -62,7 +60,7 @@
       <link>https://zszanto.github.io/teaching/vv/lab/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://zszanto.github.io/teaching/vv/lab/</guid>
-      <description>&lt;p&gt;The lab documentation can be found [here]().&lt;/p&gt;
+      <description>&lt;p&gt;The lab documentation can be found &lt;a href=&#34;&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -127,10 +125,7 @@
       <link>https://zszanto.github.io/project/aiss-vt/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0200</pubDate>
       <guid>https://zszanto.github.io/project/aiss-vt/</guid>
-      <description>
-
-&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
-
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;The purpose of the IIoT is not only to sense the environment but also to perform actions on it. The agents performing the actions are mostly controlled remotely trough network by human operators or other agents capable to make-decisions. The main goal of the project is the development and testing such control algorithms and real-time communication protocols that can be applied to network controlled systems. During the control algorithm development we take explicitly into consideration of network induced delays, information loses. In our previous work we focused on the systems with a single hop environment. The proposed algorithms we intend to evaluate in diverse network situation like multi hop wireless networks with static and mobile agent. For this purpose, we would like to use a co-simulation environment Matlab and NS2, or other network simulation tools.&lt;/p&gt;
 </description>
     </item>
