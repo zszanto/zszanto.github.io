@@ -14,22 +14,6 @@
     
     <item>
       <title>Course</title>
-      <link>https://zszanto.github.io/teaching/se/course/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://zszanto.github.io/teaching/se/course/</guid>
-      <description>&lt;p&gt;The course can be found &lt;a href=&#34;https://forms.gle/FT6Vmn65LoLtE7fb7&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Final exam:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;20 multiple choice questions from the course material and literature&lt;/li&gt;
-&lt;li&gt;0.5 points for each correctly answered question&lt;/li&gt;
-&lt;li&gt;Only one answer is correct&lt;/li&gt;
-&lt;li&gt;To pass, you must answer correctly at least 10 questions&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Course</title>
       <link>https://zszanto.github.io/teaching/se2msc/course/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://zszanto.github.io/teaching/se2msc/course/</guid>
@@ -43,15 +27,6 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://zszanto.github.io/teaching/vv/course/</guid>
       <description>&lt;p&gt;The course can be found &lt;a href=&#34;https://forms.gle/tePGZsCtTp1xDHcH6&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lab</title>
-      <link>https://zszanto.github.io/teaching/se/lab/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://zszanto.github.io/teaching/se/lab/</guid>
-      <description>&lt;p&gt;The lab documentation can be found &lt;a href=&#34;&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -264,6 +239,31 @@
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0200</pubDate>
       <guid>https://zszanto.github.io/project/to/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Course</title>
+      <link>https://zszanto.github.io/teaching/se/course/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/teaching/se/course/</guid>
+      <description>&lt;p&gt;The course and lab material can be found &lt;a href=&#34;https://forms.gle/FT6Vmn65LoLtE7fb7&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final exam:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Based on the course material and literature, 20 multiple choice questions&lt;/li&gt;
+&lt;li&gt;Each correctly answered question yields 0.5 points&lt;/li&gt;
+&lt;li&gt;Only one answer is correct per question&lt;/li&gt;
+&lt;li&gt;To pass, you must correctly answer at least 10 questions&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>https://zszanto.github.io/teaching/se/lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/teaching/se/lab/</guid>
+      <description>&lt;p&gt;The course and lab material can be found &lt;a href=&#34;https://forms.gle/FT6Vmn65LoLtE7fb7&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -23,22 +23,12 @@
   </url>
   
   <url>
-    <loc>https://zszanto.github.io/teaching/se/course/</loc>
-    <lastmod>2019-11-20T19:00:34+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zszanto.github.io/teaching/se2msc/course/</loc>
     <lastmod>2019-11-20T19:00:34+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://zszanto.github.io/teaching/vv/course/</loc>
-    <lastmod>2019-11-20T19:00:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/teaching/se/lab/</loc>
     <lastmod>2019-11-20T19:00:34+02:00</lastmod>
   </url>
   
@@ -217,7 +207,17 @@
   </url>
   
   <url>
+    <loc>https://zszanto.github.io/teaching/se/course/</loc>
+    <lastmod>2019-11-20T19:00:34+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zszanto.github.io/teaching/</loc>
+    <lastmod>2019-11-20T19:00:34+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/teaching/se/lab/</loc>
     <lastmod>2019-11-20T19:00:34+02:00</lastmod>
   </url>
   
