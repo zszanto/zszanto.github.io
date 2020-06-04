@@ -5,9 +5,9 @@
     <link>https://zszanto.github.io/</link>
       <atom:link href="https://zszanto.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Zoltán Szántó&#39;s website</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`2019`</copyright><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`2020`</copyright><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://zszanto.github.io/img/icon-192.png</url>
+      <url>https://zszanto.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Zoltán Szántó&#39;s website</title>
       <link>https://zszanto.github.io/</link>
     </image>
@@ -17,7 +17,8 @@
       <link>https://zszanto.github.io/teaching/vv/course/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://zszanto.github.io/teaching/vv/course/</guid>
-      <description>&lt;p&gt;The course can be found &lt;a href=&#34;https://forms.gle/tePGZsCtTp1xDHcH6&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The course can be found 
+&lt;a href=&#34;https://forms.gle/tePGZsCtTp1xDHcH6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -26,7 +27,8 @@
       <link>https://zszanto.github.io/teaching/vv/lab/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://zszanto.github.io/teaching/vv/lab/</guid>
-      <description>&lt;p&gt;The lab documentation can be found &lt;a href=&#34;&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The lab documentation can be found 
+&lt;a href=&#34;&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -237,15 +239,20 @@
       <link>https://zszanto.github.io/teaching/se/course/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zszanto.github.io/teaching/se/course/</guid>
-      <description>&lt;p&gt;The course and lab material can be found &lt;a href=&#34;https://forms.gle/FT6Vmn65LoLtE7fb7&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;!-- https://github.com/Li4n0/hugo_encryptor --&gt;
+&lt;!-- **There must be some text, and the summary tag is also needed:** --&gt;
+&lt;!-- 
+ --&gt;
 &lt;p&gt;&lt;strong&gt;Final exam:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Based on the course material and literature, 20 multiple choice questions&lt;/li&gt;
-&lt;li&gt;Each correctly answered question yields 0.5 points&lt;/li&gt;
-&lt;li&gt;Only one answer is correct per question&lt;/li&gt;
-&lt;li&gt;To pass, you must correctly answer at least 10 questions&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;!-- * Based on the course material and literature, 20 multiple choice questions --&gt;
+&lt;!-- * Each correctly answered question yields 0.5 points --&gt;
+&lt;!-- * Only one answer is correct per question --&gt;
+&lt;!-- * To pass, you must correctly answer at least 10 questions --&gt;
+&lt;!-- The rules and regulations --&gt;
+&lt;!-- http://www.sapientia.ro/data/szabalyzatok-hu/1%20melleklet%20-TVSZ_2019_HU-mod.pdf --&gt;
+&lt;!-- http://www.sapientia.ro/data/szabalyzatok-hu/2%20melleklet%20-%20Vizsga%20Eljarasi_rend_2019.pdf --&gt;
+&lt;!-- Ezen az oldalon van minden szabályzat: --&gt;
+&lt;!-- http://www.sapientia.ro/hu/dokumentumok/szabalyzatok-es-eljarasi-rendek --&gt;</description>
     </item>
     
     <item>
@@ -253,7 +260,8 @@
       <link>https://zszanto.github.io/teaching/se2msc/course/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zszanto.github.io/teaching/se2msc/course/</guid>
-      <description>&lt;p&gt;The course and lab material can be found &lt;a href=&#34;https://forms.gle/RrwXKuaSsr75gePz8&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The course and lab material can be found 
+&lt;a href=&#34;https://forms.gle/RrwXKuaSsr75gePz8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -262,7 +270,8 @@
       <link>https://zszanto.github.io/teaching/se/lab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zszanto.github.io/teaching/se/lab/</guid>
-      <description>&lt;p&gt;The course and lab material can be found &lt;a href=&#34;https://forms.gle/FT6Vmn65LoLtE7fb7&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The course and lab material can be found 
+&lt;a href=&#34;https://forms.gle/FT6Vmn65LoLtE7fb7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
