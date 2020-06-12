@@ -142,14 +142,6 @@
 <nav class="collapse docs-links" id="docs-nav">
 <div class="docs-toc-item active">
 <a class="docs-toc-link" href="/teaching/vv/">Overview</a>
-<ul class="nav docs-sidenav">
-<li>
-<a href="/teaching/vv/course/">Course</a>
-</li>
-<li>
-<a href="/teaching/vv/lab/">Lab</a>
-</li>
-</ul>
 </div>
 </nav>
 </div>
@@ -160,27 +152,38 @@
 <div class="article-style">
 <p><strong>Course:</strong></p>
 <ul>
-<li>Attendance: at least 75%</li>
-<li>Final exam</li>
+<li>Attendance is recommended</li>
+<li>Exam:
+<ul>
+<li>Based on the course material and literature, 20 multiple choice questions</li>
+<li>Each correctly answered question yields 0.5 points</li>
+<li>Only one answer is correct per question</li>
+<li>To pass, you must correctly answer at least 10 questions</li>
+</ul>
+</li>
 </ul>
 <p><strong>Lab</strong></p>
 <ul>
-<li>Attendance is required!</li>
-<li>Optional homework and presentations</li>
-<li><code>if (GetLabGrade() &gt;= 5) GetFinalExamGrade();</code></li>
+<li>Attendance is mandatory</li>
+<li>Lab assignments</li>
+<li>Optional: home-works and presentations</li>
 </ul>
 <p><strong>Final Grade</strong></p>
-<p><code>FinalGrade = 0.4 * GetFinalExamGrade() + 0.6 * GetLabGrade() </code></p>
-<pre><code></code></pre>
+<p><code>FinalGrade = 0.4 * GetExamGrade() + 0.6 * GetLabGrade() </code></p>
+<div class="hugo-encryptor-container">
+<div class="hugo-encryptor-prompt">
+<p>Part of this article is encrypted with password:</p>
+</div>
+<div class="hugo-encryptor-form">
+<input class="hugo-encryptor-input" placeholder="Please input the password"/>
+<input class="hugo-encryptor-button" onclick="_click_handler(this)" type="button" value="Click to verify"/>
+</div>
+<div class="hugo-encryptor-cipher-text" style="display: none;">KWu7jE6t0/J6pGcj4EZXye6WT1Aq2Al+Kjd9Ve1WF+DFCl/9P8SLfa1nEkW1XVQMwyzvwGuurLg9tBDfwHm8VfDSs5kH5r6bpJBpAmouynuRbAVh+3NLNxr2nqlEoFrEAwqBjdxNdTjtdnB5FdRmLfXPVeXwZndF18EMu8rlM6OdKkYn+AAYtXGXAye9K5OcY93JVy4WuwF5nnBd/nj8knKU2REt33++NMnDG28CbSktAs7LXvUsSMlLdWeWqoL2</div>
+</div>
 </div>
 </div>
 <div class="body-footer">
 <p>Last updated on Dec 9, 2019</p>
-<p class="edit-page">
-<a href="https://github.com/gcushen/hugo-academic/edit/master/content/teaching/vv/_index.md">
-<i class="fas fa-pen pr-2"></i>Edit this page
-  </a>
-</p>
 </div>
 </article>
 <footer class="site-footer">
@@ -260,5 +263,79 @@
 </div>
 </div>
 </div>
-</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script><script>
+const _do_decrypt = function(encrypted, password) {
+  let key = CryptoJS.enc.Utf8.parse(password);
+  let iv = CryptoJS.enc.Utf8.parse(password.substr(16));
+
+  let decrypted_data = CryptoJS.AES.decrypt(encrypted, key, {
+    iv: iv,
+    mode: CryptoJS.mode.CBC,
+    padding: CryptoJS.pad.Pkcs7
+  });
+  return decrypted_data.toString(CryptoJS.enc.Utf8);
+};
+
+const _click_handler = function(element) {
+  let parent = element.parentNode.parentNode;
+  let encrypted = parent.querySelector(
+    ".hugo-encryptor-cipher-text").innerText;
+  let password = parent.querySelector(
+    ".hugo-encryptor-input").value;
+  password = CryptoJS.MD5(password).toString();
+
+  let index = -1;
+  let elements = document.querySelectorAll(
+    ".hugo-encryptor-container");
+  for (index = 0; index < elements.length; ++index) {
+    if (elements[index].isSameNode(parent)) {
+      break;
+    }
+  }
+
+  let decrypted = "";
+  try {
+    decrypted = _do_decrypt(encrypted, password);
+  } catch (err) {
+    console.error(err);
+    alert("Failed to decrypt.");
+    return;
+  }
+
+  if (!decrypted.includes("--- DON'T MODIFY THIS LINE ---")) {
+    alert("Incorrect password.");
+    return;
+  }
+
+  let storage = localStorage;
+
+  let key = location.pathname + ".password." + index;
+  storage.setItem(key, password);
+  parent.innerHTML = decrypted;
+}
+
+window.onload = () => {
+  let index = -1;
+  let elements = document.querySelectorAll(
+    ".hugo-encryptor-container");
+
+  while (1) {
+    ++index;
+
+    let key = location.pathname + ".password." + index;
+    let password = localStorage.getItem(key);
+
+    if (!password) {
+      break;
+
+    } else {
+      console.log("Found password for part " + index);
+
+      let parent = elements[index];
+      let encrypted = parent.querySelector(".hugo-encryptor-cipher-text").innerText;
+      let decrypted = _do_decrypt(encrypted, password);
+      elements[index].innerHTML = decrypted;
+    }
+  }
+};</script></body>
 </html>

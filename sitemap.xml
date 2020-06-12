@@ -23,21 +23,6 @@
   </url>
   
   <url>
-    <loc>https://zszanto.github.io/teaching/vv/course/</loc>
-    <lastmod>2019-11-20T19:00:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/teaching/vv/lab/</loc>
-    <lastmod>2019-11-20T19:00:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/</loc>
-    <lastmod>2020-06-11T18:19:52+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zszanto.github.io/publication-type/2/</loc>
     <lastmod>2019-10-22T14:42:03+03:00</lastmod>
   </url>
@@ -50,6 +35,11 @@
   <url>
     <loc>https://zszanto.github.io/publication_types/</loc>
     <lastmod>2019-11-02T12:17:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/</loc>
+    <lastmod>2020-06-11T18:19:52+03:00</lastmod>
   </url>
   
   <url>
@@ -203,26 +193,6 @@
   </url>
   
   <url>
-    <loc>https://zszanto.github.io/teaching/se/course/</loc>
-    <lastmod>2020-06-11T18:19:52+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/teaching/se2msc/course/</loc>
-    <lastmod>2019-12-09T19:47:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/teaching/</loc>
-    <lastmod>2019-11-20T19:00:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zszanto.github.io/teaching/se/lab/</loc>
-    <lastmod>2019-12-09T19:45:51+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zszanto.github.io/post/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
@@ -235,6 +205,11 @@
   <url>
     <loc>https://zszanto.github.io/talk/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zszanto.github.io/teaching/</loc>
+    <lastmod>2019-11-20T19:00:34+02:00</lastmod>
   </url>
   
 </urlset>

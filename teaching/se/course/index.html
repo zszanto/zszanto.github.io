@@ -174,7 +174,7 @@
 <input class="hugo-encryptor-input" placeholder="Please input the password"/>
 <input class="hugo-encryptor-button" onclick="_click_handler(this)" type="button" value="Click to verify"/>
 </div>
-<div class="hugo-encryptor-cipher-text" style="display: none;">ROPDvb0iKQxgW6K0jthN8mHuqfw4+SlBJsjpCqWXhW/HyQoC6dGqSsLlOrjg6VgN+N1FAorJ3Nz0ei5EgIVlor1WVxNe1PEPLT9qAKEBVoFwzZOZ9CbyYNmAdqAWBmx9whoJiiFzsVChLAzsrsVZQG7W0hH+GZMqO0zuA2hWd8RHZFhphC35b3uWIhbjK1/Hu92isGpte8hWhawrF0vKMBC++GTT/wxYmd/Z6w/q0FX10RwkCVt2BuD7KKmsuZYiP8cD9nU56UGz5OzHJ74RULO00TZjk+wCYilHxl/gdsU=</div>
+<div class="hugo-encryptor-cipher-text" style="display: none;">a3S5a9w+XX6/9txmGwPFfItclqzJjYeBotQrs7Z+LOJ9tBW/FTyngtxOP4vRbrc2lmNCl3h8qxGH9UgSJR+Q6XSWeIXevTUX715k2ZfBjIUH/6QOfI4bFEv5P7JRcEjAciw9BNKmi2QMzDVGvWmsH0ai/B3jfvQuOBneTLQ1p35m/y6q5HAKJ/4r7WgZpjLJoFjWaYWp3hjK1nRhmi5vDTpMaNzCg985IqTI40EgJBdeucIiNZ3t4grAQl0uXfDOpu6cVuveVFDMK4tngkjabQ0seR8jUuRh1n5kHjm3MQUYAyk87YuQ86ir4+Mj5bM9D6LQBkj2W9FKG/r0f3jGRD4vZJwhk+O7DLvJoIpB2vgD1y+t1COSfpVnBHqHmYLvLtUOgQLhmdo6ydCvLE78KET46QzkC6iCrGs6MjEAb0I=</div>
 </div>
 </div>
 </div>
@@ -265,6 +265,80 @@
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script><script>
+const _do_decrypt = function(encrypted, password) {
+  let key = CryptoJS.enc.Utf8.parse(password);
+  let iv = CryptoJS.enc.Utf8.parse(password.substr(16));
+
+  let decrypted_data = CryptoJS.AES.decrypt(encrypted, key, {
+    iv: iv,
+    mode: CryptoJS.mode.CBC,
+    padding: CryptoJS.pad.Pkcs7
+  });
+  return decrypted_data.toString(CryptoJS.enc.Utf8);
+};
+
+const _click_handler = function(element) {
+  let parent = element.parentNode.parentNode;
+  let encrypted = parent.querySelector(
+    ".hugo-encryptor-cipher-text").innerText;
+  let password = parent.querySelector(
+    ".hugo-encryptor-input").value;
+  password = CryptoJS.MD5(password).toString();
+
+  let index = -1;
+  let elements = document.querySelectorAll(
+    ".hugo-encryptor-container");
+  for (index = 0; index < elements.length; ++index) {
+    if (elements[index].isSameNode(parent)) {
+      break;
+    }
+  }
+
+  let decrypted = "";
+  try {
+    decrypted = _do_decrypt(encrypted, password);
+  } catch (err) {
+    console.error(err);
+    alert("Failed to decrypt.");
+    return;
+  }
+
+  if (!decrypted.includes("--- DON'T MODIFY THIS LINE ---")) {
+    alert("Incorrect password.");
+    return;
+  }
+
+  let storage = localStorage;
+
+  let key = location.pathname + ".password." + index;
+  storage.setItem(key, password);
+  parent.innerHTML = decrypted;
+}
+
+window.onload = () => {
+  let index = -1;
+  let elements = document.querySelectorAll(
+    ".hugo-encryptor-container");
+
+  while (1) {
+    ++index;
+
+    let key = location.pathname + ".password." + index;
+    let password = localStorage.getItem(key);
+
+    if (!password) {
+      break;
+
+    } else {
+      console.log("Found password for part " + index);
+
+      let parent = elements[index];
+      let encrypted = parent.querySelector(".hugo-encryptor-cipher-text").innerText;
+      let decrypted = _do_decrypt(encrypted, password);
+      elements[index].innerHTML = decrypted;
+    }
+  }
+};</script><script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script><script>
 const _do_decrypt = function(encrypted, password) {
   let key = CryptoJS.enc.Utf8.parse(password);
   let iv = CryptoJS.enc.Utf8.parse(password.substr(16));

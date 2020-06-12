@@ -149,27 +149,26 @@
 <div class="docs-article-container">
 <h1>Software Engineering - Project</h1>
 <div class="article-style">
-<p>Please read the Software Engineering Project 
-<a href="https://docs.google.com/document/d/11_RNV4kJnY_-Fnkn0k9MYLvKG5Lr7qyIut5N1QJBsss/edit?usp=sharing" rel="noopener" target="_blank">Kickstarter</a>.</p>
-<p><strong>Grades</strong></p>
+<p><strong>Project</strong></p>
 <ul>
-<li>Software Requirement Specification. 2p</li>
-<li>UML diagrams: use-case, activity, sequence, class and others. 2p</li>
-<li>Project management board activity. 1p</li>
-<li>Repository management and activity. 1p</li>
-<li>Code review. 1p</li>
-<li>Project documentation. 2p</li>
-<li>Project presentation. Working demo. 1p</li>
+<li>Developed by a self-organizing team of students</li>
+<li>The topic is either proposed by the team or randomly assigned</li>
+<li>Milestones, deliverables, methodology may vary depending on the project</li>
 </ul>
+<div class="hugo-encryptor-container">
+<div class="hugo-encryptor-prompt">
+<p>Part of this article is encrypted with password:</p>
+</div>
+<div class="hugo-encryptor-form">
+<input class="hugo-encryptor-input" placeholder="Please input the password"/>
+<input class="hugo-encryptor-button" onclick="_click_handler(this)" type="button" value="Click to verify"/>
+</div>
+<div class="hugo-encryptor-cipher-text" style="display: none;">KWu7jE6t0/J6pGcj4EZXye6WT1Aq2Al+Kjd9Ve1WF+DFCl/9P8SLfa1nEkW1XVQMwyzvwGuurLg9tBDfwHm8VZEnMso3hy2GiDCXIwOezU7VSLQAYeK1I+bBbMc8A70z9Rpejl7wfdXEgGMM65fLLalFmMSLuWceYOQ4YltcqavPqPM9OdWoFUwzBBUYEBYc3Eh4Z/zDvFd1Mu7YUsdO45hrtPWeZleOBeb6Up4EJiL56vFlwGejPA7IFpCh/ujTODUGOouQvcy4JC8w4vv5SgbxYtMNjtk2aUSXmmtagLGHYMFNavJmMVRQwM+G8jRazbaKyMMs0sEwjj7V+DdngDCFgiWBPJnRfUnEy2shDSWiwv6cjKd0Z0wpfi1FAXKj</div>
+</div>
 </div>
 </div>
 <div class="body-footer">
 <p>Last updated on Nov 30, 2019</p>
-<p class="edit-page">
-<a href="https://github.com/gcushen/hugo-academic/edit/master/content/teaching/se-proj/_index.md">
-<i class="fas fa-pen pr-2"></i>Edit this page
-  </a>
-</p>
 </div>
 </article>
 <footer class="site-footer">
@@ -249,5 +248,79 @@
 </div>
 </div>
 </div>
-</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script><script>
+const _do_decrypt = function(encrypted, password) {
+  let key = CryptoJS.enc.Utf8.parse(password);
+  let iv = CryptoJS.enc.Utf8.parse(password.substr(16));
+
+  let decrypted_data = CryptoJS.AES.decrypt(encrypted, key, {
+    iv: iv,
+    mode: CryptoJS.mode.CBC,
+    padding: CryptoJS.pad.Pkcs7
+  });
+  return decrypted_data.toString(CryptoJS.enc.Utf8);
+};
+
+const _click_handler = function(element) {
+  let parent = element.parentNode.parentNode;
+  let encrypted = parent.querySelector(
+    ".hugo-encryptor-cipher-text").innerText;
+  let password = parent.querySelector(
+    ".hugo-encryptor-input").value;
+  password = CryptoJS.MD5(password).toString();
+
+  let index = -1;
+  let elements = document.querySelectorAll(
+    ".hugo-encryptor-container");
+  for (index = 0; index < elements.length; ++index) {
+    if (elements[index].isSameNode(parent)) {
+      break;
+    }
+  }
+
+  let decrypted = "";
+  try {
+    decrypted = _do_decrypt(encrypted, password);
+  } catch (err) {
+    console.error(err);
+    alert("Failed to decrypt.");
+    return;
+  }
+
+  if (!decrypted.includes("--- DON'T MODIFY THIS LINE ---")) {
+    alert("Incorrect password.");
+    return;
+  }
+
+  let storage = localStorage;
+
+  let key = location.pathname + ".password." + index;
+  storage.setItem(key, password);
+  parent.innerHTML = decrypted;
+}
+
+window.onload = () => {
+  let index = -1;
+  let elements = document.querySelectorAll(
+    ".hugo-encryptor-container");
+
+  while (1) {
+    ++index;
+
+    let key = location.pathname + ".password." + index;
+    let password = localStorage.getItem(key);
+
+    if (!password) {
+      break;
+
+    } else {
+      console.log("Found password for part " + index);
+
+      let parent = elements[index];
+      let encrypted = parent.querySelector(".hugo-encryptor-cipher-text").innerText;
+      let decrypted = _do_decrypt(encrypted, password);
+      elements[index].innerHTML = decrypted;
+    }
+  }
+};</script></body>
 </html>

@@ -5,30 +5,12 @@
 <link>https://zszanto.github.io/</link>
 <atom:link href="https://zszanto.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Zoltán Szántó's website</description>
-<generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`2020`</copyright><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
+<generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`2020`</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
 <image>
 <url>https://zszanto.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
 <title>Zoltán Szántó's website</title>
 <link>https://zszanto.github.io/</link>
 </image>
-<item>
-<title>Course</title>
-<link>https://zszanto.github.io/teaching/vv/course/</link>
-<pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-<guid>https://zszanto.github.io/teaching/vv/course/</guid>
-<description>&lt;p&gt;The course can be found 
-&lt;a href="https://forms.gle/tePGZsCtTp1xDHcH6" target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-</item>
-<item>
-<title>Lab</title>
-<link>https://zszanto.github.io/teaching/vv/lab/</link>
-<pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-<guid>https://zszanto.github.io/teaching/vv/lab/</guid>
-<description>&lt;p&gt;The lab documentation can be found 
-&lt;a href=""&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-</item>
 <item>
 <title>Cyber attack detection and mitigation: Software Defined Survivable Industrial Control Systems</title>
 <link>https://zszanto.github.io/publication/sandor-2019-cyber/</link>
@@ -205,72 +187,6 @@
 <pubDate>Sun, 01 Jan 2012 00:00:00 +0200</pubDate>
 <guid>https://zszanto.github.io/project/to/</guid>
 <description/>
-</item>
-<item>
-<title>Course</title>
-<link>https://zszanto.github.io/teaching/se/course/</link>
-<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/teaching/se/course/</guid>
-<description>&lt;p&gt;&lt;strong&gt;Exam:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Based on the course material and literature, 20 multiple choice questions&lt;/li&gt;
-&lt;li&gt;Each correctly answered question yields 0.5 points&lt;/li&gt;
-&lt;li&gt;Only one answer is correct per question&lt;/li&gt;
-&lt;li&gt;To pass, you must correctly answer at least 10 questions&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;div class="hugo-encryptor-container"&gt;
-  &lt;div class="hugo-encryptor-prompt"&gt;
-    
-      &lt;p&gt;Part of this article is encrypted with password:&lt;/p&gt;
-    
-  &lt;/div&gt;
-  &lt;div class="hugo-encryptor-form"&gt;
-    &lt;input
-      class="hugo-encryptor-input"
-      placeholder='Please input the password'
-    /&gt;
-    &lt;input
-      class="hugo-encryptor-button"
-      type="button"
-      value='Click to verify'
-      onclick="_click_handler(this)"
-    /&gt;
-  &lt;/div&gt;
-  &lt;div
-    class="hugo-encryptor-cipher-text"
-    data-password="PASSWORD"
-    style="display: none;"
-  &gt;
-    &lt;span style="display: none;"&gt;--- DON'T MODIFY THIS LINE ---&lt;/span&gt;
-    &lt;p&gt;The course and lab material can be found 
-&lt;a href="https://forms.gle/FT6Vmn65LoLtE7fb7" target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
-</item>
-<item>
-<title>Course</title>
-<link>https://zszanto.github.io/teaching/se2msc/course/</link>
-<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/teaching/se2msc/course/</guid>
-<description>&lt;p&gt;The course and lab material can be found 
-&lt;a href="https://forms.gle/RrwXKuaSsr75gePz8" target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-</item>
-<item>
-<title>Lab</title>
-<link>https://zszanto.github.io/teaching/se/lab/</link>
-<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/teaching/se/lab/</guid>
-<description>&lt;p&gt;The course and lab material can be found 
-&lt;a href="https://forms.gle/FT6Vmn65LoLtE7fb7" target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
 </item>
 </channel>
 </rss>
