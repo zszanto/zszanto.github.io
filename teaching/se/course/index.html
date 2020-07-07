@@ -174,7 +174,7 @@
 <input class="hugo-encryptor-input" placeholder="Please input the password"/>
 <input class="hugo-encryptor-button" onclick="_click_handler(this)" type="button" value="Click to verify"/>
 </div>
-<div class="hugo-encryptor-cipher-text" style="display: none;">8yVguEFMhQ5Zwc8NiVVZL5382rEBabxcTWDQ5sUBUULc+Im3A1vWGktnJGJtjlQyhWTqa5xP7XCpU+seUcCyGiMDs5q2dnVmuUvkXZgnF5T5lnIC8psf4w9RjYC3qDTVaj5/q7RklNjKA0XuGvFb8jvSxFTUhPW2Z074LmvPV7eohnQclpycgVcYgnKNsdzL/DNvF9h1H7tbB2r7rjOP1CShcQPbKu6mYw/ToHG7aXAYY3+WsueYoUcrVPisvShsmQ0Po2Reg9kNFQF4BwqHK0sxFsK6teq6sDyTSkLLm4QspSprMY4VPZrPeD0/1CBAtpzJTKNrTStSMAqjCnxkh2vNG7qgw+vE4Hw4OfmSH7fw2QUIkLrqIryMPPkOcd+6HQr+u+INUHiH1n5tMJB5R7UXUzIlAwT2iz24iBeGKZOU4SFh4qCxpuZ2aC1peSXjzC4n+UB2RFNQo0RTC7Gsz7V2FXi1rXPhYSbVBG99GXQxrjXzwClUhKon5TuchH+nbaf8HxgfcgcX4M/GNpbYd/ctxeStcFBP3NIWVPiXFtfk5lYsA/g3a7ndEuXPmO5XFBi2cSG+txHaXQwb1iElzA==</div>
+<div class="hugo-encryptor-cipher-text" style="display: none;">S1sKGP3hIcoGzhPuYfoGEQAkIVnIEEJjrDADErDHSWggZwp0Mxuz0hVi7Ag7CalfmzKxeHxkJtxRv2/iI7tHBzryVMqmqJBV1Mq+5hxNydyUve9R9JEF9NNnECdDoFmj5sTQhNZeo77cv0lXD8xFY0bZW0iAwPd6eY9RwJ00xj2kRRBfsE7lbRKpMNv1ehIbOyUowOw/r0DCrVKdCgBKts9RXXs5osUGbLi3G6towttbXlWTn56i4JWUqCxG43glANVmAMmP7IrbVVeZ4+oF5qfP6lZpHHxzWcNChTVLGmtEIkJjiKoUAq/SqYjB/OPA9rUapScTwbJQjb6BeEqnWN6W2DlBhNYn78wk4YbF3lnlfoG+/Of+Nr1qEE+HCiQrIHQz5pxW1m+vy9t/+fbWjetfvCSZbZ8t5OIX6pDAbBmtlGUv5OPYYd6eknbxGACswjlqHlxagCHLswHx4UI87lG0N5QFwwXEBE76TCD1wvxUPumcM3JuBlYcv9fNAjNVSp2mvUJTdaSjHw20Yj6bB0Ok8/rkX+wQ7SP4NfdV+xYonTcAHdeG2NKKM2QzWPCi2n/72aBUFVm6wuYAA7kBy4XFptb7lHIbY4VJEFvbZvCWhbtbR2UYcu085TiLi1z8XAh+/LlC0gX6F4C+vvYJAmWSKAWm0NDrhiuAGAslAPzmfH2u2mbLrufNP7FpB9IXTt8vsYjZt1JEZTaOUYvpiXujMPRvs1BtYS3TbVEVDZMIubTxZKX+JQPODciV/6hgDBb02NSYAuTJvPsSFoDP6VmREbywYih0oMjk0eUtE8o=</div>
 </div>
 </div>
 </div>
@@ -265,6 +265,80 @@
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script><script>
+const _do_decrypt = function(encrypted, password) {
+  let key = CryptoJS.enc.Utf8.parse(password);
+  let iv = CryptoJS.enc.Utf8.parse(password.substr(16));
+
+  let decrypted_data = CryptoJS.AES.decrypt(encrypted, key, {
+    iv: iv,
+    mode: CryptoJS.mode.CBC,
+    padding: CryptoJS.pad.Pkcs7
+  });
+  return decrypted_data.toString(CryptoJS.enc.Utf8);
+};
+
+const _click_handler = function(element) {
+  let parent = element.parentNode.parentNode;
+  let encrypted = parent.querySelector(
+    ".hugo-encryptor-cipher-text").innerText;
+  let password = parent.querySelector(
+    ".hugo-encryptor-input").value;
+  password = CryptoJS.MD5(password).toString();
+
+  let index = -1;
+  let elements = document.querySelectorAll(
+    ".hugo-encryptor-container");
+  for (index = 0; index < elements.length; ++index) {
+    if (elements[index].isSameNode(parent)) {
+      break;
+    }
+  }
+
+  let decrypted = "";
+  try {
+    decrypted = _do_decrypt(encrypted, password);
+  } catch (err) {
+    console.error(err);
+    alert("Failed to decrypt.");
+    return;
+  }
+
+  if (!decrypted.includes("--- DON'T MODIFY THIS LINE ---")) {
+    alert("Incorrect password.");
+    return;
+  }
+
+  let storage = localStorage;
+
+  let key = location.pathname + ".password." + index;
+  storage.setItem(key, password);
+  parent.innerHTML = decrypted;
+}
+
+window.onload = () => {
+  let index = -1;
+  let elements = document.querySelectorAll(
+    ".hugo-encryptor-container");
+
+  while (1) {
+    ++index;
+
+    let key = location.pathname + ".password." + index;
+    let password = localStorage.getItem(key);
+
+    if (!password) {
+      break;
+
+    } else {
+      console.log("Found password for part " + index);
+
+      let parent = elements[index];
+      let encrypted = parent.querySelector(".hugo-encryptor-cipher-text").innerText;
+      let decrypted = _do_decrypt(encrypted, password);
+      elements[index].innerHTML = decrypted;
+    }
+  }
+};</script><script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script><script>
 const _do_decrypt = function(encrypted, password) {
   let key = CryptoJS.enc.Utf8.parse(password);
   let iv = CryptoJS.enc.Utf8.parse(password.substr(16));
