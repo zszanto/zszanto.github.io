@@ -1,192 +1,218 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>Zoltán Szántó's website</title>
-<link>https://zszanto.github.io/</link>
-<atom:link href="https://zszanto.github.io/index.xml" rel="self" type="application/rss+xml"/>
-<description>Zoltán Szántó's website</description>
-<generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
-<image>
-<url>https://zszanto.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-<title>Zoltán Szántó's website</title>
-<link>https://zszanto.github.io/</link>
-</image>
-<item>
-<title>Cyber attack detection and mitigation: Software Defined Survivable Industrial Control Systems</title>
-<link>https://zszanto.github.io/publication/sandor-2019-cyber/</link>
-<pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/sandor-2019-cyber/</guid>
-<description/>
-</item>
-<item>
-<title>A Testbed for Performing Security Experiments with Software-Defined Industrial Control Systems</title>
-<link>https://zszanto.github.io/publication/szanto-2018-testbed/</link>
-<pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2018-testbed/</guid>
-<description/>
-</item>
-<item>
-<title>Infrastructure and framework for response and reconfiguration in Industry 4.0</title>
-<link>https://zszanto.github.io/publication/sandor-2018-infrastructure/</link>
-<pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/sandor-2018-infrastructure/</guid>
-<description/>
-</item>
-<item>
-<title>SERENITI</title>
-<link>https://zszanto.github.io/project/sereniti/</link>
-<pubDate>Fri, 05 May 2017 00:00:00 +0300</pubDate>
-<guid>https://zszanto.github.io/project/sereniti/</guid>
-<description/>
-</item>
-<item>
-<title>Brain Tumor Detection and Segmentation in MR Images Using Machine Learning </title>
-<link>https://zszanto.github.io/project/kpi-ll/</link>
-<pubDate>Sun, 15 Jan 2017 00:00:00 +0200</pubDate>
-<guid>https://zszanto.github.io/project/kpi-ll/</guid>
-<description/>
-</item>
-<item>
-<title>Internet-based bilateral teleoperation using a revised time-domain passivity controller</title>
-<link>https://zszanto.github.io/publication/marton-2017-internet/</link>
-<pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2017-internet/</guid>
-<description/>
-</item>
-<item>
-<title>Sensor data validation and abnormal behavior detection in the Internet of Things</title>
-<link>https://zszanto.github.io/publication/sandor-2017-sensor/</link>
-<pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/sandor-2017-sensor/</guid>
-<description/>
-</item>
-<item>
-<title>Data traffic control in wireless networks for moving agents</title>
-<link>https://zszanto.github.io/project/aiss-vt/</link>
-<pubDate>Fri, 15 Jan 2016 00:00:00 +0200</pubDate>
-<guid>https://zszanto.github.io/project/aiss-vt/</guid>
-<description>&lt;h1 id="summary"&gt;Summary&lt;/h1&gt;
+  <channel>
+    <title>Zoltán Szántó&#39;s website</title>
+    <link>https://zszanto.github.io/</link>
+      <atom:link href="https://zszanto.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zoltán Szántó&#39;s website</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zszanto.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Zoltán Szántó&#39;s website</title>
+      <link>https://zszanto.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Cyber attack detection and mitigation: Software Defined Survivable Industrial Control Systems</title>
+      <link>https://zszanto.github.io/publication/sandor-2019-cyber/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/sandor-2019-cyber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Testbed for Performing Security Experiments with Software-Defined Industrial Control Systems</title>
+      <link>https://zszanto.github.io/publication/szanto-2018-testbed/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2018-testbed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrastructure and framework for response and reconfiguration in Industry 4.0</title>
+      <link>https://zszanto.github.io/publication/sandor-2018-infrastructure/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/sandor-2018-infrastructure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SERENITI</title>
+      <link>https://zszanto.github.io/project/sereniti/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0300</pubDate>
+      <guid>https://zszanto.github.io/project/sereniti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brain Tumor Detection and Segmentation in MR Images Using Machine Learning </title>
+      <link>https://zszanto.github.io/project/kpi-ll/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/project/kpi-ll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet-based bilateral teleoperation using a revised time-domain passivity controller</title>
+      <link>https://zszanto.github.io/publication/marton-2017-internet/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2017-internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensor data validation and abnormal behavior detection in the Internet of Things</title>
+      <link>https://zszanto.github.io/publication/sandor-2017-sensor/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/sandor-2017-sensor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data traffic control in wireless networks for moving agents</title>
+      <link>https://zszanto.github.io/project/aiss-vt/</link>
+      <pubDate>Fri, 15 Jan 2016 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/project/aiss-vt/</guid>
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;The purpose of the IIoT is not only to sense the environment but also to perform actions on it. The agents performing the actions are mostly controlled remotely trough network by human operators or other agents capable to make-decisions. The main goal of the project is the development and testing such control algorithms and real-time communication protocols that can be applied to network controlled systems. During the control algorithm development we take explicitly into consideration of network induced delays, information loses. In our previous work we focused on the systems with a single hop environment. The proposed algorithms we intend to evaluate in diverse network situation like multi hop wireless networks with static and mobile agent. For this purpose, we would like to use a co-simulation environment Matlab and NS2, or other network simulation tools.&lt;/p&gt;
 </description>
-</item>
-<item>
-<title>Data transfer regulator for wireless teleoperation</title>
-<link>https://zszanto.github.io/publication/marton-2016-data/</link>
-<pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2016-data/</guid>
-<description/>
-</item>
-<item>
-<title>Network controller for teleoperated mobile robotic agents</title>
-<link>https://zszanto.github.io/publication/marton-2016-network/</link>
-<pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2016-network/</guid>
-<description/>
-</item>
-<item>
-<title>Bilateral Teleoperation in the Presence of Jitter: Communication Performance Evaluation and Control</title>
-<link>https://zszanto.github.io/publication/haller-2015-bilateral/</link>
-<pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/haller-2015-bilateral/</guid>
-<description/>
-</item>
-<item>
-<title>Investigation of robotic swarms with partial team-goal knowledge</title>
-<link>https://zszanto.github.io/publication/szanto-2015-investigation/</link>
-<pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2015-investigation/</guid>
-<description/>
-</item>
-<item>
-<title>Nonlinear PI rate control in bottleneck links: Application to teleoperation systems</title>
-<link>https://zszanto.github.io/publication/marton-2015-nonlinear/</link>
-<pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2015-nonlinear/</guid>
-<description/>
-</item>
-<item>
-<title>Target following approach for self-organized swarms based on color information</title>
-<link>https://zszanto.github.io/publication/szanto-2015-target/</link>
-<pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2015-target/</guid>
-<description/>
-</item>
-<item>
-<title>Bilateral teleoperation of wheeled mobile robots working in common workspace</title>
-<link>https://zszanto.github.io/publication/marton-2014-bilateral/</link>
-<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2014-bilateral/</guid>
-<description/>
-</item>
-<item>
-<title>Communication delay and jitter influence on bilateral teleoperation</title>
-<link>https://zszanto.github.io/publication/marton-2014-communication/</link>
-<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2014-communication/</guid>
-<description/>
-</item>
-<item>
-<title>Supervised robot groups with reconfigurable formation: Theory and simulations</title>
-<link>https://zszanto.github.io/publication/szanto-2014-supervised/</link>
-<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2014-supervised/</guid>
-<description/>
-</item>
-<item>
-<title>Teleoperated mobile robot groups with reconfigurable formation</title>
-<link>https://zszanto.github.io/publication/szanto-2014-teleoperated/</link>
-<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2014-teleoperated/</guid>
-<description/>
-</item>
-<item>
-<title>The effect of JPEG compression on network controller designed for teleoperation system</title>
-<link>https://zszanto.github.io/publication/vajda-2014-effect/</link>
-<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/vajda-2014-effect/</guid>
-<description/>
-</item>
-<item>
-<title>Communication Performance Evaluation of Bilateral Teleoperation systems Implemented over WLAN</title>
-<link>https://zszanto.github.io/publication/haller-2013-communication/</link>
-<pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/haller-2013-communication/</guid>
-<description/>
-</item>
-<item>
-<title>Generic framework for multi-robot formation control</title>
-<link>https://zszanto.github.io/publication/szanto-2013-generic/</link>
-<pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2013-generic/</guid>
-<description/>
-</item>
-<item>
-<title>Performance analysis of WLAN based mobile robot teleoperation</title>
-<link>https://zszanto.github.io/publication/szanto-2013-performance/</link>
-<pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2013-performance/</guid>
-<description/>
-</item>
-<item>
-<title>Video supported bilateral teleoperation system: Design and implementation</title>
-<link>https://zszanto.github.io/publication/sandor-2013-video/</link>
-<pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/sandor-2013-video/</guid>
-<description/>
-</item>
-<item>
-<title>Robot control using Q-Learning</title>
-<link>https://zszanto.github.io/publication/szanto-2012-robot/</link>
-<pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2012-robot/</guid>
-<description/>
-</item>
-<item>
-<title>TO</title>
-<link>https://zszanto.github.io/project/to/</link>
-<pubDate>Sun, 01 Jan 2012 00:00:00 +0200</pubDate>
-<guid>https://zszanto.github.io/project/to/</guid>
-<description/>
-</item>
-</channel>
+    </item>
+    
+    <item>
+      <title>Data transfer regulator for wireless teleoperation</title>
+      <link>https://zszanto.github.io/publication/marton-2016-data/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2016-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network controller for teleoperated mobile robotic agents</title>
+      <link>https://zszanto.github.io/publication/marton-2016-network/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2016-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bilateral Teleoperation in the Presence of Jitter: Communication Performance Evaluation and Control</title>
+      <link>https://zszanto.github.io/publication/haller-2015-bilateral/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/haller-2015-bilateral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigation of robotic swarms with partial team-goal knowledge</title>
+      <link>https://zszanto.github.io/publication/szanto-2015-investigation/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2015-investigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear PI rate control in bottleneck links: Application to teleoperation systems</title>
+      <link>https://zszanto.github.io/publication/marton-2015-nonlinear/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2015-nonlinear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Target following approach for self-organized swarms based on color information</title>
+      <link>https://zszanto.github.io/publication/szanto-2015-target/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2015-target/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bilateral teleoperation of wheeled mobile robots working in common workspace</title>
+      <link>https://zszanto.github.io/publication/marton-2014-bilateral/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2014-bilateral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Communication delay and jitter influence on bilateral teleoperation</title>
+      <link>https://zszanto.github.io/publication/marton-2014-communication/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2014-communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supervised robot groups with reconfigurable formation: Theory and simulations</title>
+      <link>https://zszanto.github.io/publication/szanto-2014-supervised/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2014-supervised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teleoperated mobile robot groups with reconfigurable formation</title>
+      <link>https://zszanto.github.io/publication/szanto-2014-teleoperated/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2014-teleoperated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The effect of JPEG compression on network controller designed for teleoperation system</title>
+      <link>https://zszanto.github.io/publication/vajda-2014-effect/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/vajda-2014-effect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Communication Performance Evaluation of Bilateral Teleoperation systems Implemented over WLAN</title>
+      <link>https://zszanto.github.io/publication/haller-2013-communication/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/haller-2013-communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generic framework for multi-robot formation control</title>
+      <link>https://zszanto.github.io/publication/szanto-2013-generic/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2013-generic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance analysis of WLAN based mobile robot teleoperation</title>
+      <link>https://zszanto.github.io/publication/szanto-2013-performance/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2013-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video supported bilateral teleoperation system: Design and implementation</title>
+      <link>https://zszanto.github.io/publication/sandor-2013-video/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/sandor-2013-video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot control using Q-Learning</title>
+      <link>https://zszanto.github.io/publication/szanto-2012-robot/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2012-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TO</title>
+      <link>https://zszanto.github.io/project/to/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0200</pubDate>
+      <guid>https://zszanto.github.io/project/to/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>
