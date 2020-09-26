@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 | Zoltán Szántó&#39;s website</title>
+    <link>https://zszanto.github.io/publication-type/6/</link>
+      <atom:link href="https://zszanto.github.io/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zszanto.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>6</title>
+      <link>https://zszanto.github.io/publication-type/6/</link>
+    </image>
+    
+    <item>
+      <title>Network controller for teleoperated mobile robotic agents</title>
+      <link>https://zszanto.github.io/publication/marton-2016-network/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2016-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bilateral Teleoperation in the Presence of Jitter: Communication Performance Evaluation and Control</title>
+      <link>https://zszanto.github.io/publication/haller-2015-bilateral/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/haller-2015-bilateral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supervised robot groups with reconfigurable formation: Theory and simulations</title>
+      <link>https://zszanto.github.io/publication/szanto-2014-supervised/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2014-supervised/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
