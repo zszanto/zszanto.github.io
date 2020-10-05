@@ -168,16 +168,8 @@
 <li>The project contains the developed demo application and its documentation</li>
 <li>The project is presented during the semester</li>
 </ul>
-<div class="hugo-encryptor-container">
-<div class="hugo-encryptor-prompt">
-<p>Part of this article is encrypted:</p>
-</div>
-<div class="hugo-encryptor-form">
-<input class="hugo-encryptor-input" placeholder="Please input the password"/>
-<input class="hugo-encryptor-button" onclick="_click_handler(this)" type="button" value="Verify"/>
-</div>
-<div class="hugo-encryptor-cipher-text" style="display: none;">N+WQF1c25u/Rvv12/iRrFoCYj99Gt1fhhaxtnr4SvM2FsCxd/2mSaD+h1BS3wBXu+7hlMaptuIZ3sfOCOo0KHjAzyMZ2Ch572aSx5Un3Q9NqD+pxXjJQhBhQXhb29fmnYjHRYiN5D6AggPOwfMcA1SHTy0WKv50HCMsJTYT5F+q3kscUvccY4yAQM++Jb3Y6y3zJso3dWdiW5EQeV3sNW+hn+nxQnwcRIWcfzuNL4ZdBGpNv8dW/hDCkKDkCXLrBg/5hYcgxx9swaajF0wvzn29RhZRJLIEU9CEm+SMrrdLoZd8y6wLuHnuNBu17JC4CqqBYjFnA+2AWa+kwX7/htO1cUu4KgtdumQH8/mc+BmK/Kzav/IkucTdR2dq+xDGU</div>
-</div>
+<p>Software Engineering Project 
+<a href="https://docs.google.com/document/d/11_RNV4kJnY_-Fnkn0k9MYLvKG5Lr7qyIut5N1QJBsss/edit?usp=sharing" rel="noopener" target="_blank">Kickstarter</a>.</p>
 </div>
 </div>
 <div class="body-footer">
@@ -264,79 +256,5 @@
 </div>
 </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script><script>
-const _do_decrypt = function(encrypted, password) {
-  let key = CryptoJS.enc.Utf8.parse(password);
-  let iv = CryptoJS.enc.Utf8.parse(password.substr(16));
-
-  let decrypted_data = CryptoJS.AES.decrypt(encrypted, key, {
-    iv: iv,
-    mode: CryptoJS.mode.CBC,
-    padding: CryptoJS.pad.Pkcs7
-  });
-  return decrypted_data.toString(CryptoJS.enc.Utf8);
-};
-
-const _click_handler = function(element) {
-  let parent = element.parentNode.parentNode;
-  let encrypted = parent.querySelector(
-    ".hugo-encryptor-cipher-text").innerText;
-  let password = parent.querySelector(
-    ".hugo-encryptor-input").value;
-  password = CryptoJS.MD5(password).toString();
-
-  let index = -1;
-  let elements = document.querySelectorAll(
-    ".hugo-encryptor-container");
-  for (index = 0; index < elements.length; ++index) {
-    if (elements[index].isSameNode(parent)) {
-      break;
-    }
-  }
-
-  let decrypted = "";
-  try {
-    decrypted = _do_decrypt(encrypted, password);
-  } catch (err) {
-    console.error(err);
-    alert("Failed to decrypt.");
-    return;
-  }
-
-  if (!decrypted.includes("--- DON'T MODIFY THIS LINE ---")) {
-    alert("Incorrect password.");
-    return;
-  }
-
-  let storage = localStorage;
-
-  let key = location.pathname + ".password." + index;
-  storage.setItem(key, password);
-  parent.innerHTML = decrypted;
-}
-
-window.onload = () => {
-  let index = -1;
-  let elements = document.querySelectorAll(
-    ".hugo-encryptor-container");
-
-  while (1) {
-    ++index;
-
-    let key = location.pathname + ".password." + index;
-    let password = localStorage.getItem(key);
-
-    if (!password) {
-      break;
-
-    } else {
-      console.log("Found password for part " + index);
-
-      let parent = elements[index];
-      let encrypted = parent.querySelector(".hugo-encryptor-cipher-text").innerText;
-      let decrypted = _do_decrypt(encrypted, password);
-      elements[index].innerHTML = decrypted;
-    }
-  }
-};</script></body>
+</body>
 </html>
