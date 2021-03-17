@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brain Tumor | Zoltán Szántó`s website</title>
+    <link>https://zszanto.github.io/tag/brain-tumor/</link>
+      <atom:link href="https://zszanto.github.io/tag/brain-tumor/index.xml" rel="self" type="application/rss+xml" />
+    <description>Brain Tumor</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 zszanto</copyright><lastBuildDate>Sun, 15 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zszanto.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Brain Tumor</title>
+      <link>https://zszanto.github.io/tag/brain-tumor/</link>
+    </image>
+    
+    <item>
+      <title>Brain Tumor Detection and Segmentation in MR Images Using Machine Learning </title>
+      <link>https://zszanto.github.io/project/kpi-ll/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/project/kpi-ll/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
