@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Videos | Zoltán Szántó`s website</title>
+    <title>Zoltán Szántó`s website</title>
     <link>https://zszanto.github.io/videos/</link>
       <atom:link href="https://zszanto.github.io/videos/index.xml" rel="self" type="application/rss+xml" />
-    <description>Videos</description>
+    <description>Zoltán Szántó`s website</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 zszanto</copyright>
     <image>
       <url>https://zszanto.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Videos</title>
+      <title>Zoltán Szántó`s website</title>
       <link>https://zszanto.github.io/videos/</link>
     </image>
     

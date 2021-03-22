@@ -175,39 +175,16 @@
 </ul>
 <p><strong>Final Grade</strong></p>
 <p><code>FinalGrade = 0.4 * GetExamGrade() + 0.6 * GetLabGrade() </code></p>
-<!-- 
-
-
-
 <div class="hugo-encryptor-container">
-  <div class="hugo-encryptor-prompt">
-    
-      <p>Part of this article is encrypted:</p>
-    
-  </div>
-  <div class="hugo-encryptor-form">
-    <input
-      class="hugo-encryptor-input"
-      placeholder='Please input the password'
-    />
-    <input
-      class="hugo-encryptor-button"
-      type="button"
-      value='Verify'
-      onclick="_click_handler(this)"
-    />
-  </div>
-  <div
-    class="hugo-encryptor-cipher-text"
-    data-password="PASSWORD"
-    style="display: none;"
-  >
-    <span style="display: none;">--- DON'T MODIFY THIS LINE ---</span>
-    <p>The course and project kickstarter can be found <a href="https://drive.google.com/drive/folders/12qKNkvaUF7XYhN17_rTXp1fgOA7GyGKO?usp=sharing" target="_blank" rel="noopener">here</a>.</p>
-
-  </div>
+<div class="hugo-encryptor-prompt">
+<p>Part of this article is encrypted:</p>
 </div>
- -->
+<div class="hugo-encryptor-form">
+<input class="hugo-encryptor-input" placeholder="Please input the password"/>
+<input class="hugo-encryptor-button" onclick="_click_handler(this)" type="button" value="Verify"/>
+</div>
+<div class="hugo-encryptor-cipher-text" style="display: none;">yKZeloqCfyv6Fpgpuf4rr3JDNpjRsthocLP8+KHjgx6K5S3Ja8jqPFKZVzxFymD17JDYXDEDQ3DXCdk8SL4kSkFjG24tHrBu8uBADXUufmZ9tHeqh9XKMx4BIeB5AOJLU20cTku2sMP2IPxf73WeaNSohwMjW8MyYuffsm5lUaubbiQ1i/Ta/G/Z3PFK/F2gq3bkU4BD4iXTroYjhTGQvQyeSW2OJlKjPMOXxAhV5A9TjkzREA4Mg09vZpariKoVxfVbeEgL8acY9zj5XPOVlUUNaFzpQTIAlK19WfaOdzleHZ1e/1Ya02ztHNggqPPW9e0J6Tosc+OOX0J+5/OHYQF1cJltlxoeeMIBoZcYG2C812ggyEO44ZVlZlYJtGTu</div>
+</div>
 </div>
 <div class="article-widget">
 <div class="post-nav">
@@ -291,5 +268,79 @@
 <script crossorigin="anonymous" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
 <script src="/js/_vendor/bootstrap.bundle.min.js"></script>
 <script src="/en/js/wowchemy.min.js"></script>
-</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script><script>
+const _do_decrypt = function(encrypted, password) {
+  let key = CryptoJS.enc.Utf8.parse(password);
+  let iv = CryptoJS.enc.Utf8.parse(password.substr(16));
+
+  let decrypted_data = CryptoJS.AES.decrypt(encrypted, key, {
+    iv: iv,
+    mode: CryptoJS.mode.CBC,
+    padding: CryptoJS.pad.Pkcs7
+  });
+  return decrypted_data.toString(CryptoJS.enc.Utf8);
+};
+
+const _click_handler = function(element) {
+  let parent = element.parentNode.parentNode;
+  let encrypted = parent.querySelector(
+    ".hugo-encryptor-cipher-text").innerText;
+  let password = parent.querySelector(
+    ".hugo-encryptor-input").value;
+  password = CryptoJS.MD5(password).toString();
+
+  let index = -1;
+  let elements = document.querySelectorAll(
+    ".hugo-encryptor-container");
+  for (index = 0; index < elements.length; ++index) {
+    if (elements[index].isSameNode(parent)) {
+      break;
+    }
+  }
+
+  let decrypted = "";
+  try {
+    decrypted = _do_decrypt(encrypted, password);
+  } catch (err) {
+    console.error(err);
+    alert("Failed to decrypt.");
+    return;
+  }
+
+  if (!decrypted.includes("--- DON'T MODIFY THIS LINE ---")) {
+    alert("Incorrect password.");
+    return;
+  }
+
+  let storage = localStorage;
+
+  let key = location.pathname + ".password." + index;
+  storage.setItem(key, password);
+  parent.innerHTML = decrypted;
+}
+
+window.onload = () => {
+  let index = -1;
+  let elements = document.querySelectorAll(
+    ".hugo-encryptor-container");
+
+  while (1) {
+    ++index;
+
+    let key = location.pathname + ".password." + index;
+    let password = localStorage.getItem(key);
+
+    if (!password) {
+      break;
+
+    } else {
+      console.log("Found password for part " + index);
+
+      let parent = elements[index];
+      let encrypted = parent.querySelector(".hugo-encryptor-cipher-text").innerText;
+      let decrypted = _do_decrypt(encrypted, password);
+      elements[index].innerHTML = decrypted;
+    }
+  }
+};</script></body>
 </html>
