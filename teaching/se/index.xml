@@ -12,5 +12,21 @@
       <link>https://zszanto.github.io/teaching/se/</link>
     </image>
     
+    <item>
+      <title>Course</title>
+      <link>https://zszanto.github.io/teaching/se/course/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/teaching/se/course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>https://zszanto.github.io/teaching/se/lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/teaching/se/lab/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
