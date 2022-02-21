@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SERENITI | Zoltán Szántó&#39;s website</title>
+    <link>https://zszanto.github.io/tag/sereniti/</link>
+      <atom:link href="https://zszanto.github.io/tag/sereniti/index.xml" rel="self" type="application/rss+xml" />
+    <description>SERENITI</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 zszanto</copyright><lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zszanto.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>SERENITI</title>
+      <link>https://zszanto.github.io/tag/sereniti/</link>
+    </image>
+    
+    <item>
+      <title>SERENITI</title>
+      <link>https://zszanto.github.io/project/sereniti/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/project/sereniti/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
