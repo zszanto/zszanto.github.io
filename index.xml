@@ -1,41 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>Zoltán Szántó's website</title>
-<link>https://zszanto.github.io/</link>
-<atom:link href="https://zszanto.github.io/index.xml" rel="self" type="application/rss+xml"/>
-<description>Zoltán Szántó's website</description>
-<generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 zszanto</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
-<image>
-<url>https://zszanto.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-<title>Zoltán Szántó's website</title>
-<link>https://zszanto.github.io/</link>
-</image>
-<item>
-<title>Example Talk</title>
-<link>https://zszanto.github.io/talk/example-talk/</link>
-<pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/talk/example-talk/</guid>
-<description>&lt;div class="alert alert-note"&gt;
+  <channel>
+    <title>Zoltán Szántó&#39;s website</title>
+    <link>https://zszanto.github.io/</link>
+      <atom:link href="https://zszanto.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zoltán Szántó&#39;s website</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 zszanto</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zszanto.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Zoltán Szántó&#39;s website</title>
+      <link>https://zszanto.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://zszanto.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener"&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener"&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
 </description>
-</item>
-<item>
-<title>Welcome to Wowchemy, the website builder for Hugo</title>
-<link>https://zszanto.github.io/post/getting-started/</link>
-<pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/post/getting-started/</guid>
-<description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://zszanto.github.io/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
 &lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
@@ -55,39 +57,44 @@
 
 
 
-&lt;figure  id="figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device"&gt;
-  &lt;div class="d-flex justify-content-center"&gt;
-    &lt;div class="w-100" &gt;&lt;img src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" alt="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+
+
+
+
+&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
     &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h2 id="get-started"&gt;Get Started&lt;/h2&gt;
+
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;👉 &lt;a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href="https://wowchemy.com/docs/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener"&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href="https://discourse.gohugo.io" target="_blank" rel="noopener"&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href="https://twitter.com/wowchemy" target="_blank" rel="noopener"&gt;@wowchemy&lt;/a&gt; &lt;a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener"&gt;@GeorgeCushen&lt;/a&gt; &lt;a href="https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query" target="_blank" rel="noopener"&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/issues" target="_blank" rel="noopener"&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href="https://wowchemy.com/docs/guide/update/" target="_blank" rel="noopener"&gt;Update Guide&lt;/a&gt; and &lt;a href="https://wowchemy.com/updates/" target="_blank" rel="noopener"&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/guide/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="crowd-funded-open-source-software"&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
 &lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id="-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans"&gt;&lt;a href="https://wowchemy.com/plans/" target="_blank" rel="noopener"&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href="https://wowchemy.com/plans/" target="_blank" rel="noopener"&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id="ecosystem"&gt;Ecosystem&lt;/h2&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://github.com/wowchemy/hugo-academic-cli" target="_blank" rel="noopener"&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener"&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href="https://wowchemy.com/user-stories/" target="_blank" rel="noopener"&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;h2 id="features"&gt;Features&lt;/h2&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href="https://wowchemy.com/docs/page-builder/" target="_blank" rel="noopener"&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener"&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href="https://wowchemy.com/docs/import/jupyter/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href="https://wowchemy.com/docs/install-locally/" target="_blank" rel="noopener"&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href="https://wowchemy.com/docs/customization/" target="_blank" rel="noopener"&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="noopener"&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href="https://analytics.google.com" target="_blank" rel="noopener"&gt;Google Analytics&lt;/a&gt;, &lt;a href="https://disqus.com" target="_blank" rel="noopener"&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
@@ -98,204 +105,232 @@
 &lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="themes"&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener"&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://wowchemy.com/docs/customization" target="_blank" rel="noopener"&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
-&lt;h2 id="license"&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href="https://georgecushen.com" target="_blank" rel="noopener"&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md" target="_blank" rel="noopener"&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
-</item>
-<item>
-<title>Cyber attack detection and mitigation: Software defined survivable industrial control systems</title>
-<link>https://zszanto.github.io/publication/sandor-2019-cyber/</link>
-<pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/sandor-2019-cyber/</guid>
-<description/>
-</item>
-<item>
-<title>A Testbed for Performing Security Experiments with Software-Defined Industrial Control Systems</title>
-<link>https://zszanto.github.io/publication/szanto-2018-testbed/</link>
-<pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2018-testbed/</guid>
-<description/>
-</item>
-<item>
-<title>Infrastructure and framework for response and reconfiguration in Industry 4.0</title>
-<link>https://zszanto.github.io/publication/sandor-2018-infrastructure/</link>
-<pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/sandor-2018-infrastructure/</guid>
-<description/>
-</item>
-<item>
-<title>SERENITI</title>
-<link>https://zszanto.github.io/project/sereniti/</link>
-<pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/project/sereniti/</guid>
-<description/>
-</item>
-<item>
-<title>Brain Tumor Detection and Segmentation in MR Images Using Machine Learning </title>
-<link>https://zszanto.github.io/project/kpi-ll/</link>
-<pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/project/kpi-ll/</guid>
-<description/>
-</item>
-<item>
-<title>Internet-based bilateral teleoperation using a revised time-domain passivity controller</title>
-<link>https://zszanto.github.io/publication/marton-2017-internet/</link>
-<pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2017-internet/</guid>
-<description/>
-</item>
-<item>
-<title>Sensor data validation and abnormal behavior detection in the Internet of Things</title>
-<link>https://zszanto.github.io/publication/sandor-2017-sensor/</link>
-<pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/sandor-2017-sensor/</guid>
-<description/>
-</item>
-<item>
-<title>Data traffic control in wireless networks for moving agents</title>
-<link>https://zszanto.github.io/project/aiss-vt/</link>
-<pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/project/aiss-vt/</guid>
-<description>&lt;h1 id="summary"&gt;Summary&lt;/h1&gt;
+    </item>
+    
+    <item>
+      <title>Cyber attack detection and mitigation: Software defined survivable industrial control systems</title>
+      <link>https://zszanto.github.io/publication/sandor-2019-cyber/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/sandor-2019-cyber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Testbed for Performing Security Experiments with Software-Defined Industrial Control Systems</title>
+      <link>https://zszanto.github.io/publication/szanto-2018-testbed/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2018-testbed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrastructure and framework for response and reconfiguration in Industry 4.0</title>
+      <link>https://zszanto.github.io/publication/sandor-2018-infrastructure/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/sandor-2018-infrastructure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SERENITI</title>
+      <link>https://zszanto.github.io/project/sereniti/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/project/sereniti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brain Tumor Detection and Segmentation in MR Images Using Machine Learning </title>
+      <link>https://zszanto.github.io/project/kpi-ll/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/project/kpi-ll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet-based bilateral teleoperation using a revised time-domain passivity controller</title>
+      <link>https://zszanto.github.io/publication/marton-2017-internet/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2017-internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensor data validation and abnormal behavior detection in the Internet of Things</title>
+      <link>https://zszanto.github.io/publication/sandor-2017-sensor/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/sandor-2017-sensor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data traffic control in wireless networks for moving agents</title>
+      <link>https://zszanto.github.io/project/aiss-vt/</link>
+      <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/project/aiss-vt/</guid>
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;The purpose of the IIoT is not only to sense the environment but also to perform actions on it. The agents performing the actions are mostly controlled remotely trough network by human operators or other agents capable to make-decisions. The main goal of the project is the development and testing such control algorithms and real-time communication protocols that can be applied to network controlled systems. During the control algorithm development we take explicitly into consideration of network induced delays, information loses. In our previous work we focused on the systems with a single hop environment. The proposed algorithms we intend to evaluate in diverse network situation like multi hop wireless networks with static and mobile agent. For this purpose, we would like to use a co-simulation environment Matlab and NS2, or other network simulation tools.&lt;/p&gt;
 </description>
-</item>
-<item>
-<title>Data transfer regulator for wireless teleoperation</title>
-<link>https://zszanto.github.io/publication/marton-2016-data/</link>
-<pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2016-data/</guid>
-<description/>
-</item>
-<item>
-<title>Network controller for teleoperated mobile robotic agents</title>
-<link>https://zszanto.github.io/publication/marton-2016-network/</link>
-<pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2016-network/</guid>
-<description/>
-</item>
-<item>
-<title>Bilateral Teleoperation in the Presence of Jitter: Communication Performance Evaluation and Control</title>
-<link>https://zszanto.github.io/publication/haller-2015-bilateral/</link>
-<pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/haller-2015-bilateral/</guid>
-<description/>
-</item>
-<item>
-<title>Investigation of robotic swarms with partial team-goal knowledge</title>
-<link>https://zszanto.github.io/publication/szanto-2015-investigation/</link>
-<pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2015-investigation/</guid>
-<description/>
-</item>
-<item>
-<title>Nonlinear PI rate control in bottleneck links: Application to teleoperation systems</title>
-<link>https://zszanto.github.io/publication/marton-2015-nonlinear/</link>
-<pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2015-nonlinear/</guid>
-<description/>
-</item>
-<item>
-<title>Target following approach for self-organized swarms based on color information</title>
-<link>https://zszanto.github.io/publication/szanto-2015-target/</link>
-<pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2015-target/</guid>
-<description/>
-</item>
-<item>
-<title>Bilateral teleoperation of wheeled mobile robots working in common workspace</title>
-<link>https://zszanto.github.io/publication/marton-2014-bilateral/</link>
-<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2014-bilateral/</guid>
-<description/>
-</item>
-<item>
-<title>Communication delay and jitter influence on bilateral teleoperation</title>
-<link>https://zszanto.github.io/publication/marton-2014-communication/</link>
-<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/marton-2014-communication/</guid>
-<description/>
-</item>
-<item>
-<title>Supervised robot groups with reconfigurable formation: Theory and simulations</title>
-<link>https://zszanto.github.io/publication/szanto-2014-supervised/</link>
-<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2014-supervised/</guid>
-<description/>
-</item>
-<item>
-<title>Teleoperated mobile robot groups with reconfigurable formation</title>
-<link>https://zszanto.github.io/publication/szanto-2014-teleoperated/</link>
-<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2014-teleoperated/</guid>
-<description/>
-</item>
-<item>
-<title>The effect of JPEG compression on network controller designed for teleoperation system</title>
-<link>https://zszanto.github.io/publication/vajda-2014-effect/</link>
-<pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/vajda-2014-effect/</guid>
-<description/>
-</item>
-<item>
-<title>Communication Performance Evaluation of Bilateral Teleoperation systems Implemented over WLAN</title>
-<link>https://zszanto.github.io/publication/haller-2013-communication/</link>
-<pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/haller-2013-communication/</guid>
-<description/>
-</item>
-<item>
-<title>Generic framework for multi-robot formation control</title>
-<link>https://zszanto.github.io/publication/szanto-2013-generic/</link>
-<pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2013-generic/</guid>
-<description/>
-</item>
-<item>
-<title>Performance analysis of WLAN based mobile robot teleoperation</title>
-<link>https://zszanto.github.io/publication/szanto-2013-performance/</link>
-<pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2013-performance/</guid>
-<description/>
-</item>
-<item>
-<title>Video supported bilateral teleoperation system: Design and implementation</title>
-<link>https://zszanto.github.io/publication/sandor-2013-video/</link>
-<pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/sandor-2013-video/</guid>
-<description/>
-</item>
-<item>
-<title>Ericsson BME 5G</title>
-<link>https://zszanto.github.io/project/ericssonbme5g/</link>
-<pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/project/ericssonbme5g/</guid>
-<description/>
-</item>
-<item>
-<title>Robot control using Q-Learning</title>
-<link>https://zszanto.github.io/publication/szanto-2012-robot/</link>
-<pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/publication/szanto-2012-robot/</guid>
-<description/>
-</item>
-<item>
-<title>TO</title>
-<link>https://zszanto.github.io/project/to/</link>
-<pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/project/to/</guid>
-<description/>
-</item>
-<item>
-<title/>
-<link>https://zszanto.github.io/admin/config.yml</link>
-<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-<guid>https://zszanto.github.io/admin/config.yml</guid>
-<description/>
-</item>
-</channel>
+    </item>
+    
+    <item>
+      <title>Data transfer regulator for wireless teleoperation</title>
+      <link>https://zszanto.github.io/publication/marton-2016-data/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2016-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network controller for teleoperated mobile robotic agents</title>
+      <link>https://zszanto.github.io/publication/marton-2016-network/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2016-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bilateral Teleoperation in the Presence of Jitter: Communication Performance Evaluation and Control</title>
+      <link>https://zszanto.github.io/publication/haller-2015-bilateral/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/haller-2015-bilateral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigation of robotic swarms with partial team-goal knowledge</title>
+      <link>https://zszanto.github.io/publication/szanto-2015-investigation/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2015-investigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear PI rate control in bottleneck links: Application to teleoperation systems</title>
+      <link>https://zszanto.github.io/publication/marton-2015-nonlinear/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2015-nonlinear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Target following approach for self-organized swarms based on color information</title>
+      <link>https://zszanto.github.io/publication/szanto-2015-target/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2015-target/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bilateral teleoperation of wheeled mobile robots working in common workspace</title>
+      <link>https://zszanto.github.io/publication/marton-2014-bilateral/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2014-bilateral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Communication delay and jitter influence on bilateral teleoperation</title>
+      <link>https://zszanto.github.io/publication/marton-2014-communication/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/marton-2014-communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supervised robot groups with reconfigurable formation: Theory and simulations</title>
+      <link>https://zszanto.github.io/publication/szanto-2014-supervised/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2014-supervised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teleoperated mobile robot groups with reconfigurable formation</title>
+      <link>https://zszanto.github.io/publication/szanto-2014-teleoperated/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2014-teleoperated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The effect of JPEG compression on network controller designed for teleoperation system</title>
+      <link>https://zszanto.github.io/publication/vajda-2014-effect/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/vajda-2014-effect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Communication Performance Evaluation of Bilateral Teleoperation systems Implemented over WLAN</title>
+      <link>https://zszanto.github.io/publication/haller-2013-communication/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/haller-2013-communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generic framework for multi-robot formation control</title>
+      <link>https://zszanto.github.io/publication/szanto-2013-generic/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2013-generic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance analysis of WLAN based mobile robot teleoperation</title>
+      <link>https://zszanto.github.io/publication/szanto-2013-performance/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2013-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video supported bilateral teleoperation system: Design and implementation</title>
+      <link>https://zszanto.github.io/publication/sandor-2013-video/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/sandor-2013-video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ericsson BME 5G</title>
+      <link>https://zszanto.github.io/project/ericssonbme5g/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/project/ericssonbme5g/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot control using Q-Learning</title>
+      <link>https://zszanto.github.io/publication/szanto-2012-robot/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/publication/szanto-2012-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TO</title>
+      <link>https://zszanto.github.io/project/to/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/project/to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://zszanto.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://zszanto.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>
