@@ -12,7 +12,7 @@
 #   docker build --target dev -t zszanto.github.io:dev .
 
 # ---- Pinned base image (single source of truth) ---------------------------
-ARG NODE_IMAGE=node:20-alpine
+ARG NODE_IMAGE=node:22-alpine
 
 # ---- deps -----------------------------------------------------------------
 FROM ${NODE_IMAGE} AS deps

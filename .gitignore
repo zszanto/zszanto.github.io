@@ -43,3 +43,6 @@ coverage/
 # OS specific
 .DS_Store
 Thumbs.db
+
+# Local working notes
+tasks.md
