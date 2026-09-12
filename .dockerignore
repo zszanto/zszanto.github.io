@@ -30,14 +30,8 @@ Thumbs.db
 .gitignore
 .github
 
-# Project chores not needed at build/runtime.
-.taskmaster
-tasks.md
-
 # Docs (kept out of the image; still in the repo).
 README.md
-CONTRIBUTING.md
-MAINTENANCE.md
 docs
 
 # Don't ship the Dockerfile / compose into the image itself.

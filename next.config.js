@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 // basePath/assetPrefix are configurable so the same build works for a user-page
 // (https://<user>.github.io/) and a project-page (https://<user>.github.io/<repo>/).
-// Set NEXT_PUBLIC_BASE_PATH=/next-website in CI for project-page deploys.
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
 const nextConfig = {

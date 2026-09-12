@@ -1,11 +1,10 @@
 {
-  "name": "academic-website",
-  "version": "0.2.0",
+  "name": "zszanto.github.io",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint"
   },
   "overrides": {
@@ -27,7 +26,7 @@
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "eslint-config-next": "^15.5.24",
-    "postcss": "^8.4.39",
+    "postcss": "^8.5.28",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.5.3"
   }

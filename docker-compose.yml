@@ -15,7 +15,7 @@ services:
     build:
       context: .
       target: dev
-    container_name: academic-website-dev
+    container_name: zszanto-github-io-dev
     # Same port inside and out, driven by one variable — this way the URL
     # Next.js prints in its startup banner is the real host URL.
     ports:

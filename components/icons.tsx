@@ -4,7 +4,6 @@ import {
   FaOrcid,
   FaResearchgate,
   FaGitlab,
-  FaBitbucket,
   FaYoutube,
   FaTwitter,
   FaGoogleDrive,
@@ -12,7 +11,7 @@ import {
   FaChalkboardTeacher,
   FaExternalLinkAlt,
 } from 'react-icons/fa'
-import { SiGooglescholar, SiDblp } from 'react-icons/si'
+import { SiGooglescholar } from 'react-icons/si'
 import { HiMail } from 'react-icons/hi'
 import type { IconType } from 'react-icons'
 import type { StudentCornerLinkType } from '@/utils/data'
@@ -22,12 +21,10 @@ const ICONS: Record<string, IconType> = {
   email: HiMail,
   github: FaGithub,
   gitlab: FaGitlab,
-  bitbucket: FaBitbucket,
   linkedin: FaLinkedin,
   orcid: FaOrcid,
   googlescholar: SiGooglescholar,
   researchgate: FaResearchgate,
-  dblp: SiDblp,
   youtube: FaYoutube,
   twitter: FaTwitter,
 }

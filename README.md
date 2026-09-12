@@ -1,6 +1,6 @@
 # Academic Personal Website
 
-A small, content-driven academic site built with **Next.js 14 (App Router) + TypeScript + Tailwind CSS** and exported as a fully static site — no server, no database, no API keys. Drop the build output on any static host.
+A small, content-driven academic site built with **Next.js 15 (App Router) + React 19 + TypeScript + Tailwind CSS** and exported as a fully static site — no server, no database, no API keys. Drop the build output on any static host.
 
 All content lives in JSON files under `data/`. To update the site, edit JSON.
 

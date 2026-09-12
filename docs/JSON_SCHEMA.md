@@ -19,12 +19,10 @@ interface Bio {
   institution: string
   institutionUrl: string
   bio: string
-  researchGroup?: string
   researchGroupUrl?: string
   department?: string
   departmentUrl?: string
-  lab?: string
-  labUrl?: string
+  sapiLineTracerUrl?: string
   photo: string         // absolute URL or path under /public
 }
 ```
@@ -36,7 +34,6 @@ interface Bio {
   "institution": "MIT",
   "institutionUrl": "https://mit.edu",
   "bio": "I research...",
-  "researchGroup": "AI Research Lab",
   "researchGroupUrl": "https://ailab.mit.edu",
   "photo": "/images/profile.jpg"
 }
@@ -58,8 +55,8 @@ interface SocialFile {
 
 Supported `icon` keys:
 
-`email`, `github`, `gitlab`, `bitbucket`, `linkedin`, `orcid`,
-`googlescholar`, `researchgate`, `dblp`, `youtube`, `twitter`.
+`email`, `github`, `gitlab`, `linkedin`, `orcid`, `googlescholar`,
+`researchgate`, `youtube`, `twitter`.
 
 Unknown icons render as nothing — extend `components/icons.tsx` to add more.
 
@@ -94,44 +91,6 @@ interface InterestsFile {
 
 ---
 
-## `education.json`
-
-```ts
-interface EducationFile {
-  education: Array<{
-    degree: string
-    field: string
-    institution: string
-    institutionUrl: string
-    year: number             // used for sorting (most recent first)
-    startYear?: number
-    endYear?: number
-    location: string
-    thesis?: string
-  }>
-}
-```
-
----
-
-## `experience.json`
-
-```ts
-interface ExperienceFile {
-  experience: Array<{
-    title: string
-    company: string
-    companyUrl: string
-    startDate: string        // "YYYY-MM" or "YYYY-MM-DD"
-    endDate: string          // same, or the literal "Present"
-    location: string
-    description: string
-  }>
-}
-```
-
----
-
 ## `timeline.json`
 
 "The Road" — a single chronological stream of career, education, and personal
@@ -140,7 +99,7 @@ photo-milestones. Entries are sorted by `startDate` (most recent first).
 ```ts
 interface TimelineFile {
   entries: Array<{
-    title: string
+    title?: string             // optional — a photo-milestone may be just images + date
     organization?: string      // optional — photo-milestones have none
     organizationUrl?: string
     startDate: string          // "YYYY", "YYYY-MM", or "Present"
@@ -194,8 +153,8 @@ interface ProjectsFile {
   projects: Array<{
     title: string
     description: string
-    image: string            // URL or /images/... path
-    url: string
+    image?: string           // URL or /images/... path
+    url?: string
     tags: string[]
   }>
 }
@@ -227,7 +186,7 @@ interface PublicationsFile {
 interface VideosFile {
   videos: Array<{
     title: string
-    description: string
+    description?: string
     youtubeId: string        // 11-char YouTube ID (the v=... part of the URL)
     date?: string            // optional, "YYYY-MM-DD"
     tags?: string[]
@@ -236,6 +195,52 @@ interface VideosFile {
 ```
 
 The videos section is only rendered when this array is non-empty. To hide the section entirely, leave it as `{ "videos": [] }`.
+
+---
+
+## `teaching.json`
+
+Courses (each gets a statically-generated page at `/teaching/<slug>/`) plus
+the Student Corner link collection shown on `/teaching`.
+
+```ts
+interface TeachingFile {
+  courses: Array<{
+    slug: string             // URL-safe id — page lives at /teaching/<slug>/
+    title: string
+    level?: string           // short badge label, e.g. "BSc", "MSc"
+    summary?: string         // 1–2 sentence overview (card + page)
+    attendance: string
+    topics: string[]
+    laboratory?: string
+    grading?: string         // how the course is graded
+    materials?: Array<{      // optional slides / notes / repos on the course page
+      label: string
+      url: string
+      type?: LinkType
+    }>
+    lastUpdated?: string
+  }>
+  studentCorner: {
+    title: string
+    lastUpdated?: string
+    links: Array<{
+      label: string
+      url: string
+      description?: string   // short explanation shown under the label
+      category?: string      // grouping bucket, e.g. "Documents & rules", "Thesis"
+      type?: LinkType        // drives the icon; defaults to "external"
+      keywords?: string[]    // extra search terms for the global search
+    }>
+  }
+}
+
+// Categorizes a link for grouping and icon selection.
+type LinkType = 'doc' | 'drive' | 'github' | 'conference' | 'external'
+```
+
+When adding a course, remember the hand-maintained `public/sitemap.xml` —
+add the new `/teaching/<slug>/` URL there too.
 
 ---
 

@@ -13,7 +13,6 @@ export interface Bio {
   institution: string
   institutionUrl: string
   bio: string
-  researchGroup?: string
   researchGroupUrl?: string
   department?: string
   departmentUrl?: string
