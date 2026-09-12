@@ -101,6 +101,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
           // On another page (e.g. a course page) → do a real navigation to the
           // homepage anchor. On a fresh load the browser lands directly on the
           // section (no App-Router scroll-to-top, no slow smooth crawl).
+          // eslint-disable-next-line @next/next/no-location-assign-relative-destination
           window.location.href = `/${entry.href}`
         }
         return
