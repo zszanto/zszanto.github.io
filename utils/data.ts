@@ -39,8 +39,9 @@ export interface SocialLink {
  */
 export interface TimelineImage {
   /**
-   * Image path or URL, e.g. "/images/road/narvik1.jpg". Keep images
-   * compressed (~1200px wide) and store them under `public/images/road/`.
+   * Image path or URL, e.g. "/images/road/narvik1.jpg". Store new photos
+   * under `public/images/road/` and run `npm run optimize-images` before
+   * committing (resizes to fit 1600px, strips EXIF/GPS metadata).
    */
   src: string
   /** Short caption (1–2 words or a small sentence). */
