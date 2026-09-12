@@ -37,8 +37,8 @@ export default function Hero({ bio, social }: HeroProps) {
             </div>
           ) : (
             <>
-              {/* Plain <img> instead of next/image: optimization is disabled for
-                  static export anyway, and the bio photo is hosted off-domain. */}
+              {/* Plain <img> instead of next/image: the image optimizer is
+                  disabled for static export anyway. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={bio.photo}
@@ -68,9 +68,7 @@ export default function Hero({ bio, social }: HeroProps) {
           </a>
         </p>
 
-        {/* Students are the most frequent, most task-driven visitors. Give them
-            an immediate, one-click path to the dedicated teaching hub so they
-            never have to scroll or hunt through the nav. */}
+        {/* One-click path for students to the teaching hub. */}
         <Link
           href="/teaching"
           className="group inline-flex items-center gap-2 rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-gray-900"

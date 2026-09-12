@@ -7,5 +7,3 @@
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '') ||
   'https://zszanto.github.io'
-
-export const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''

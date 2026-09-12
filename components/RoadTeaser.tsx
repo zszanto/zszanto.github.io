@@ -2,11 +2,9 @@ import Link from 'next/link'
 import SectionHeading from './SectionHeading'
 
 /**
- * Compact home-page teaser for "The Road" — mirrors the Teaching teaser.
- * The full chronological journey (career + education + photo milestones)
- * lives on the dedicated `/road` page; the home page only shows a short
- * pointer so the scroll stays friendly. Keeps `id="timeline"` so old
- * `#timeline` bookmarks still land somewhere sensible.
+ * Compact home-page teaser for "The Road" (full journey at `/road`).
+ * Keeps `id="timeline"` so old `#timeline` bookmarks still land somewhere
+ * sensible.
  */
 export default function RoadTeaser() {
   return (

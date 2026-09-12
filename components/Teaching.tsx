@@ -7,11 +7,8 @@ interface TeachingProps {
 }
 
 /**
- * Compact home-page teaser. Students get a dedicated, bookmarkable hub at
- * `/teaching` (course pages + full Student Corner), so the home page only
- * shows a short pointer instead of the entire resource list. This keeps the
- * home scroll friendly for non-student visitors while giving students a clear,
- * one-click path to what they actually need.
+ * Compact home-page teaser; the full hub (course pages + Student Corner)
+ * lives at `/teaching`.
  */
 export default function Teaching({ teaching }: TeachingProps) {
   const { courses } = teaching

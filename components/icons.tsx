@@ -16,7 +16,6 @@ import { HiMail } from 'react-icons/hi'
 import type { IconType } from 'react-icons'
 import type { StudentCornerLinkType } from '@/utils/data'
 
-
 const ICONS: Record<string, IconType> = {
   email: HiMail,
   github: FaGithub,

@@ -5,7 +5,6 @@ import TeachingFull from '@/components/TeachingFull'
 import SectionHeading from '@/components/SectionHeading'
 import BackButton from '@/components/BackButton'
 
-
 export const metadata: Metadata = {
   title: 'Teaching',
   description:

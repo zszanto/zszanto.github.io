@@ -8,8 +8,6 @@ import type {
 import SectionHeading from './SectionHeading'
 import TimelineItem from './TimelineItem'
 
-
-
 interface TimelineProps {
   entries: TimelineEntryData[]
   /** Show every entry up front (dedicated /road page) instead of gating
@@ -39,8 +37,6 @@ interface TimelineEntry {
   /** Stable React key. */
   reactKey: string
 }
-
-
 
 /** Number of most-recent entries shown before the user expands the rest. */
 const INITIAL_VISIBLE = 5
@@ -102,8 +98,6 @@ function toEntry(e: TimelineEntryData): TimelineEntry {
   }
 }
 
-
-
 /**
  * "The Road" — a unified chronological view of career + education,
  * rendered from the single `data/timeline.json` list.
@@ -134,8 +128,6 @@ export default function Timeline({
     mapped.sort((a, b) => b.sortKey - a.sortKey)
     return mapped
   }, [entries])
-
-
 
   const hasHiddenEntries = sorted.length > INITIAL_VISIBLE
   const visible = useMemo(

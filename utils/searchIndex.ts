@@ -159,7 +159,6 @@ const TIMELINE_ENTRIES: SearchEntry[] = (timeline.entries as TimelineEntry[])
       description,
       group: 'The Road',
       type: 'timeline',
-      // Dedicated, statically-generated page on this site.
       href: '/road/',
       external: false,
       keywords: [
@@ -169,8 +168,6 @@ const TIMELINE_ENTRIES: SearchEntry[] = (timeline.entries as TimelineEntry[])
       ],
     })
   })
-
-
 
 const PROJECT_ENTRIES: SearchEntry[] = (projects.projects as Project[]).map(
   (project) =>
@@ -217,7 +214,6 @@ const COURSE_ENTRIES: SearchEntry[] = typedTeaching.courses.map((course) =>
     description: course.summary ?? course.topics.slice(0, 3).join(' · '),
     group: 'Teaching',
     type: 'course',
-    // Dedicated, statically-generated course page on this site.
     href: `/teaching/${course.slug}/`,
     external: false,
     keywords: [
@@ -228,7 +224,6 @@ const COURSE_ENTRIES: SearchEntry[] = typedTeaching.courses.map((course) =>
     ],
   }),
 )
-
 
 const RESOURCE_ENTRIES: SearchEntry[] = typedTeaching.studentCorner.links.map(
   (link) =>

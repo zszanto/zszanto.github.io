@@ -69,8 +69,6 @@ export interface TimelineEntry {
   images?: TimelineImage[]
 }
 
-
-
 export interface Project {
   title: string
   description: string
@@ -122,7 +120,6 @@ export interface TeachingCourse {
   lastUpdated?: string
 }
 
-
 /** Categorizes a Student Corner link for grouping and icon selection. */
 export type StudentCornerLinkType =
   | 'doc'
@@ -143,7 +140,6 @@ export interface StudentCornerLink {
   /** Extra search terms so e.g. "attendance list" finds the right link. */
   keywords?: string[]
 }
-
 
 export interface StudentCorner {
   title: string

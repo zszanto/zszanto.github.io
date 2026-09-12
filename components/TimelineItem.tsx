@@ -24,7 +24,6 @@ interface TimelineItemProps {
   isLast?: boolean
 }
 
-
 /**
  * A single entry in a vertical timeline.
  * Compose inside a `<ol>` or `<ul>` wrapper.
@@ -33,8 +32,7 @@ interface TimelineItemProps {
  *   [ date ] [ dot + connector ] [ content ]
  *
  * On mobile the date column collapses and the date is shown as a small
- * line above the heading. Education vs. experience is intentionally NOT
- * labeled — the merged stream reads as one continuous history.
+ * line above the heading.
  */
 export default function TimelineItem({
   date,
@@ -144,7 +142,6 @@ export default function TimelineItem({
                     src={image.src}
                     alt={image.alt ?? image.caption ?? heading ?? 'Timeline image'}
                     loading="lazy"
-
                     decoding="async"
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />

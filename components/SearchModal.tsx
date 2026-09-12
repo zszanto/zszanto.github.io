@@ -11,7 +11,6 @@ import { usePathname, useRouter } from 'next/navigation'
 import { searchEntries, type SearchEntry } from '@/utils/searchIndex'
 
 interface SearchModalProps {
-
   isOpen: boolean
   onClose: () => void
 }
@@ -25,8 +24,6 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const listRef = useRef<HTMLUListElement>(null)
   const panelRef = useRef<HTMLDivElement>(null)
-
-
 
   const results = useMemo(() => searchEntries(query), [query])
 
@@ -67,7 +64,6 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     return () => document.removeEventListener('mousedown', onPointerDown)
   }, [isOpen, onClose])
 
-
   const goToResult = useCallback(
     (entry: SearchEntry) => {
       onClose()
@@ -102,15 +98,12 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
             })
           }, 0)
         } else {
-
           // On another page (e.g. a course page) → do a real navigation to the
           // homepage anchor. On a fresh load the browser lands directly on the
           // section (no App-Router scroll-to-top, no slow smooth crawl).
           window.location.href = `/${entry.href}`
         }
         return
-
-
       }
 
       // Internal route (e.g. /teaching/se/) → client-side navigation.
@@ -118,8 +111,6 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     },
     [onClose, router, pathname],
   )
-
-
 
   const handleKeyDown = useCallback(
     (event: React.KeyboardEvent) => {
@@ -167,8 +158,6 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
         className="w-full max-w-xl bg-white dark:bg-gray-800 rounded-xl shadow-2xl overflow-hidden"
         onKeyDown={handleKeyDown}
       >
-
-
         {/* Search input */}
         <div className="flex items-center gap-3 px-4 border-b border-gray-200 dark:border-gray-700">
           <svg
@@ -195,7 +184,6 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
             className="flex-1 bg-transparent py-4 text-base outline-none placeholder:text-gray-400 text-gray-900 dark:text-gray-100"
           />
         </div>
-
 
         {/* Results */}
         <div className="max-h-[55vh] overflow-y-auto">

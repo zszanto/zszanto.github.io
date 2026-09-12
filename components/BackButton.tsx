@@ -10,8 +10,7 @@ interface BackButtonProps {
  * "Back" control for sub-pages (e.g. course pages).
  *
  * Uses a Next.js <Link> for a reliable client-side navigation back to the
- * given section anchor. This always works (no dependency on referrer or
- * history state) and automatically respects the configured `basePath`.
+ * given target (no dependency on referrer or history state).
  */
 export default function BackButton({
   href,

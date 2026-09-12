@@ -7,13 +7,10 @@ interface ContactProps {
 }
 
 /**
- * A static export cannot host a real form endpoint, and the previous
- * implementation only `setTimeout`'d and falsely claimed success. We instead
- * surface the actual contact channels (email + other links from social.json),
- * which works without a backend and removes a misleading UX.
- *
- * To wire a real form, replace the mailto with a Formspree/Web3Forms endpoint
- * and reintroduce a client component.
+ * A static export cannot host a real form endpoint, so this surfaces the
+ * actual contact channels (email + other links from social.json) instead.
+ * To add a real form, wire up a Formspree/Web3Forms endpoint in a client
+ * component.
  */
 export default function Contact({ social = [] }: ContactProps) {
   const emailLink = social.find((link) => link.platform.toLowerCase() === 'email')

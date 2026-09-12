@@ -7,7 +7,6 @@ import type { Bio } from '@/utils/data'
 import ThemeToggle from '@/components/ThemeToggle'
 import SearchModal from '@/components/SearchModal'
 
-
 interface NavbarProps {
   bio: Bio
 }
@@ -41,7 +40,6 @@ const NAV_ITEMS: ReadonlyArray<NavItem> = [
   { label: 'Contact', href: '#contact', id: 'contact', kind: 'anchor' },
 ]
 
-
 export default function Navbar({ bio }: NavbarProps) {
   // Section anchors only exist on the home page. On subpages (/road,
   // /teaching, ...) the same items must first navigate home, so their hrefs
@@ -55,7 +53,6 @@ export default function Navbar({ bio }: NavbarProps) {
   const [activeId, setActiveId] = useState<string | null>(null)
   const menuButtonRef = useRef<HTMLButtonElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
-
 
   // Sticky-style background swap on scroll.
   useEffect(() => {
@@ -149,7 +146,6 @@ export default function Navbar({ bio }: NavbarProps) {
     document.addEventListener('keydown', onKey)
     return () => document.removeEventListener('keydown', onKey)
   }, [])
-
 
   // Mobile menu: lock body scroll, close on Esc / outside click.
   useEffect(() => {

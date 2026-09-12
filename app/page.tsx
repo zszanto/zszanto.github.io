@@ -6,7 +6,6 @@ import publications from '@/data/publications.json'
 import videos from '@/data/videos.json'
 import teaching from '@/data/teaching.json'
 
-
 import Hero from '@/components/Hero'
 import Biography from '@/components/Biography'
 import Interests from '@/components/Interests'
@@ -25,7 +24,6 @@ import type {
   Video,
   Teaching as TeachingType,
 } from '@/utils/data'
-
 
 export default function Home() {
   return (
