@@ -105,11 +105,8 @@ function toEntry(e: TimelineEntryData): TimelineEntry {
 
 
 /**
- * "The Road" — a unified chronological view of career + education.
- *
- * Entries come from a single `data/timeline.json` list (no education vs.
- * experience distinction) and are ordered most-recent first with a uniform
- * marker style, so the timeline reads as one continuous story.
+ * "The Road" — a unified chronological view of career + education,
+ * rendered from the single `data/timeline.json` list.
  *
  * To keep long histories scannable, only the most recent entries are
  * visible by default; the rest are revealed via a "Show earlier" toggle.

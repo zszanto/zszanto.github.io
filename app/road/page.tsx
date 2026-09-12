@@ -21,11 +21,6 @@ export default function RoadPage() {
 
       <header className="mb-8">
         <SectionHeading title="The Road" />
-
-        <p className="mt-2 text-gray-600 dark:text-gray-300 max-w-prose">
-          Career, education and the milestones in between — most recent first,
-          with photos and places along the way.
-        </p>
       </header>
 
       {/* The dedicated page shows the whole journey up front — no
