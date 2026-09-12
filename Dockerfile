@@ -9,7 +9,7 @@
 #   dev   — `next dev` for local development
 #
 # Build the dev stage with:
-#   docker build --target dev -t zszanto-github-io:dev .
+#   docker build --target dev -t zszanto.github.io:dev .
 
 # ---- Pinned base image (single source of truth) ---------------------------
 ARG NODE_IMAGE=node:20-alpine
