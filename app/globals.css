@@ -1,6 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* Class-based dark mode (the ThemeToggle sets `.dark` on <html>),
+   replacing tailwind.config `darkMode: 'class'` from v3. */
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* Smooth scrolling and scroll padding for the fixed header. */
 html {
