@@ -1,10 +1,7 @@
 /**
- * Shared types for the content stored under `data/*.json`.
- *
- * Note: previously this file also exposed a `getData(filename)` helper that
- * read JSON via `fs` at build time. With the App Router we just import the
- * JSON modules directly (`import bio from '@/data/bio.json'`), which gives us
- * full type inference, zero runtime cost, and removes a process.cwd() hop.
+ * Shared types for the content stored under `data/*.json` — the single
+ * source of truth for the content schema. Field comments here double as
+ * the editing documentation.
  */
 
 export interface Bio {
@@ -32,6 +29,7 @@ export interface Interests {
 export interface SocialLink {
   platform: string
   url: string
+  /** Key into the ICONS table in `components/icons.tsx`; unknown keys render nothing. */
   icon: string
 }
 
@@ -40,7 +38,10 @@ export interface SocialLink {
  * on The Road (e.g. trips, events) where the entry is mostly image + caption.
  */
 export interface TimelineImage {
-  /** Image path or URL, e.g. "/images/road/narvik1.jpg". */
+  /**
+   * Image path or URL, e.g. "/images/road/narvik1.jpg". Keep images
+   * compressed (~1200px wide) and store them under `public/images/road/`.
+   */
   src: string
   /** Short caption (1–2 words or a small sentence). */
   caption?: string
@@ -89,6 +90,7 @@ export interface Publication {
 
 export interface Video {
   title: string
+  /** 11-char YouTube ID (the v=... part of the URL). */
   youtubeId: string
   description?: string
   date?: string
@@ -103,7 +105,11 @@ export interface CourseMaterial {
 }
 
 export interface TeachingCourse {
-  /** URL-safe identifier used for the dedicated page at /teaching/<slug>. */
+  /**
+   * URL-safe identifier used for the dedicated page at /teaching/<slug>.
+   * When adding a course, also add its URL to the hand-maintained
+   * `public/sitemap.xml`.
+   */
   slug: string
   title: string
   /** Short badge label, e.g. "BSc", "MSc". */

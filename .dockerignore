@@ -32,7 +32,6 @@ Thumbs.db
 
 # Docs (kept out of the image; still in the repo).
 README.md
-docs
 
 # Don't ship the Dockerfile / compose into the image itself.
 Dockerfile
