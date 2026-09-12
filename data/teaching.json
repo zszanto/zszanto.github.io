@@ -1,0 +1,115 @@
+{
+  "courses": [
+    {
+      "slug": "se",
+      "title": "Software Engineering BSc",
+      "level": "BSc",
+      "summary": "Foundations of building software well: from development processes and requirements through object-oriented design, patterns, architecture, and testing.",
+      "attendance": "Attendance is recommended",
+      "topics": [
+        "Software development processes",
+        "Requirement engineering",
+        "Principles of object-oriented analysis and design. SOLID",
+        "UML",
+        "Design patterns",
+        "Software architecture",
+        "Software testing"
+      ],
+      "laboratory": "Attendance is mandatory. Lab assignments, with optional homework and presentations for extra credit, and a project.",
+      "lastUpdated": "Sep 24, 2025"
+    },
+    {
+      "slug": "vv",
+      "title": "Verification and Validation",
+      "level": "BSc",
+      "summary": "How to know software works: development, release, and user testing strategies, plus the test doubles used to isolate and verify behavior.",
+      "attendance": "Attendance is recommended",
+      "topics": [
+        "Development testing: unit testing, component testing, system testing",
+        "Release testing: requirements-based testing, scenario-based testing",
+        "User testing: alpha testing, beta testing, acceptance testing",
+        "Test doubles: dummy object, test stub, test spy, mock objects"
+      ],
+      "laboratory": "Laboratory sessions accompany the course.",
+      "lastUpdated": "Sep 24, 2025"
+    },
+    {
+      "slug": "se-msc",
+      "title": "Software Engineering MSc",
+      "level": "MSc",
+      "summary": "Advanced, robustness-focused software engineering: defensive coding and design, better exception handling, advanced patterns, and optional types.",
+      "attendance": "Attendance is recommended",
+      "topics": [
+        "Writing traditional defensive code",
+        "Incorporating defensive design strategies",
+        "Better exception handling",
+        "Advanced design patterns",
+        "Optional types"
+      ],
+      "laboratory": "Lab & Project — follow the provided guide.",
+      "lastUpdated": "Sep 24, 2025"
+    }
+  ],
+  "studentCorner": {
+    "title": "Student corner",
+    "lastUpdated": "Jun 2, 2026",
+    "links": [
+      {
+        "label": "Sapientia University's rules and regulations (HUN)",
+        "url": "http://www.sapientia.ro/hu/dokumentumok/szabalyzatok-es-eljarasi-rendek",
+        "description": "Official study and exam regulations, procedures, and policies.",
+        "category": "Documents & rules",
+        "type": "doc",
+        "keywords": ["attendance list", "regulations", "rules", "exam", "policy", "szabalyzat"]
+      },
+      {
+        "label": "Collection of SE books",
+        "url": "https://drive.google.com/drive/folders/1NzvZxLtkKNLGXLXAxwltNWfZAPzrP4bU?usp=sharing",
+        "description": "Curated software engineering ebooks and references (Google Drive).",
+        "category": "Resources",
+        "type": "drive",
+        "keywords": ["books", "ebooks", "reading", "literature", "software engineering"]
+      },
+      {
+        "label": "Collection of SE videos",
+        "url": "https://drive.google.com/drive/folders/1ba50iOvKAHcGGGxjktL4xUaCVs-bezUF?usp=sharing",
+        "description": "Lecture-supporting video material (Google Drive).",
+        "category": "Resources",
+        "type": "drive",
+        "keywords": ["videos", "lectures", "recordings", "tutorials"]
+      },
+      {
+        "label": "Thesis template in LaTeX",
+        "url": "https://github.com/andraspatka/sapi-thesis-template",
+        "description": "Ready-to-use LaTeX template for your BSc/MSc thesis.",
+        "category": "Thesis",
+        "type": "github",
+        "keywords": ["thesis", "diploma", "latex", "template", "dolgozat", "szakdolgozat"]
+      },
+      {
+        "label": "Previous works",
+        "url": "https://drive.google.com/drive/folders/1IXYDUxlucc8gAWECrkUVvz-bTd3owIYC?usp=sharing",
+        "description": "Examples of past student theses and projects (Google Drive).",
+        "category": "Thesis",
+        "type": "drive",
+        "keywords": ["previous works", "examples", "past theses", "samples"]
+      },
+      {
+        "label": "Student conference: TDK",
+        "url": "https://tdk.ms.sapientia.ro/index.php/site/page/",
+        "description": "Local Scientific Students' Conference at Sapientia.",
+        "category": "Conferences",
+        "type": "conference",
+        "keywords": ["tdk", "conference", "student research", "scientific"]
+      },
+      {
+        "label": "Student conference: MTDK",
+        "url": "https://mtdk.tmd.ro/index.php/site/page/",
+        "description": "Hungarian Scientific Students' Conference of Transylvania.",
+        "category": "Conferences",
+        "type": "conference",
+        "keywords": ["mtdk", "conference", "student research", "transylvania"]
+      }
+    ]
+  }
+}

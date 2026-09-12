@@ -1,0 +1,45 @@
+# Keep the build context small and reproducible.
+
+# Dependencies & build output (installed/produced inside the image).
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next
+out
+build
+coverage
+.nyc_output
+
+# Local env files — only .env.example should ever be in the image.
+.env
+.env.local
+.env.*.local
+
+# Editor / OS noise.
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# VCS.
+.git
+.gitignore
+.github
+
+# Project chores not needed at build/runtime.
+.taskmaster
+tasks.md
+
+# Docs (kept out of the image; still in the repo).
+README.md
+CONTRIBUTING.md
+MAINTENANCE.md
+docs
+
+# Don't ship the Dockerfile / compose into the image itself.
+Dockerfile
+docker-compose.yml

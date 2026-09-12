@@ -1,0 +1,36 @@
+# Local development only. Production is the static export published to
+# GitHub Pages.
+#
+# Single source of truth for the dev environment — `./run.sh` is just a
+# wrapper for `docker compose up --build`.
+#
+#   ./run.sh                          # dev server at http://localhost:20020
+#   DEV_PORT=4000 ./run.sh            # override the port
+#
+# Note: dev_node_modules initializes from the image once; after changing
+# dependencies run `docker compose down -v` to refresh it.
+
+services:
+  web:
+    build:
+      context: .
+      target: dev
+    container_name: academic-website-dev
+    # Same port inside and out, driven by one variable — this way the URL
+    # Next.js prints in its startup banner is the real host URL.
+    ports:
+      - "${DEV_PORT:-20020}:${DEV_PORT:-20020}"
+    environment:
+      - PORT=${DEV_PORT:-20020}
+      # Polling gives reliable hot reload with bind-mounted source on Linux/macOS.
+      - WATCHPACK_POLLING=true
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - .:/app
+      # Keep node_modules/.next container-owned so the host can't clobber them.
+      - dev_node_modules:/app/node_modules
+      - dev_next_cache:/app/.next
+
+volumes:
+  dev_node_modules:
+  dev_next_cache:

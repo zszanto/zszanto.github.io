@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "SERENITI",
+      "description": "The project aims to develop novel methodologies for the design of security- and resilience-aware ICT infrastructures for networked critical infrastructures, such as water plants, oil and gas pipelines, the power grid, and the emerging Smart Grid.",
+      "image": "/images/sereniti.png",
+      "tags": ["Cyber-security", "Critical Infrastructure", "ICT", "Smart Grid"]
+    },
+    {
+      "title": "Brain Tumor Detection and Segmentation in MR Images Using Machine Learning",
+      "description": "This project aims to develop machine learning methods for brain tumor segmentation in MR images.",
+      "tags": ["Machine Learning", "Medical Imaging", "Computer Vision", "Healthcare"]
+    },
+    {
+      "title": "Data traffic control in wireless networks for moving agents",
+      "description": "Development and testing of control algorithms and real-time communication protocols that can be applied to networked control systems.",
+      "tags": ["Wireless Networks", "Control Systems", "Real-time Communication", "IoT"]
+    },
+    {
+      "title": "Ericsson BME 5G",
+      "description": "We used two Universal Robots arms (UR3 and UR3e) to perform a pick-and-place assembly task. To simulate factory conditions, a conveyor fed ArUco-encoded pieces to the robotic setup. When a desired piece was detected, we estimated an ideal pickup position from which it could be lifted off the conveyor. Once both arms held a correct piece, the assembly was performed — a motion that required a synchronized set of movements from the robotic arms.",
+      "image": "/images/ericsson.jpg",
+      "url": "https://www.youtube.com/watch?v=ZDwt2-OIh0A",
+      "tags": ["Robotics", "5G", "Industrial Automation", "Computer Vision"]
+    },
+    {
+      "title": "TO - Teleoperation",
+      "description": "The main goal of the project is to develop control algorithms, trajectory generation algorithms, and real-time communication protocols that can be applied to robotic systems operating in hazardous environments, supervised by a human operator through video feedback.",
+      "image": "/images/to.jpg",
+      "url": "https://ms.sapientia.ro/~martonl/MartonL_Research_TE.htm",
+      "tags": ["Teleoperation", "Robotics", "Control Systems", "Remote Control"]
+    }
+  ]
+}

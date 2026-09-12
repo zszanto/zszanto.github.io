@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zszanto.github.io/sitemap.xml

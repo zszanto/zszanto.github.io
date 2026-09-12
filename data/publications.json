@@ -1,0 +1,180 @@
+{
+  "publications": [
+    {
+      "title": "IoT-driven track health monitoring for sustainable railway operations",
+      "authors": ["Hunor Sándor", "Zoltán Szántó", "Zsolt Levente Orbán"],
+      "venue": "8th International Conference on Road and Rail Infrastructure (CETRA)",
+      "year": 2024,
+      "doi": "",
+      "bibtex": "@inproceedings{sandor2024iot,\n  title={IoT-driven track health monitoring for sustainable railway operations},\n  author={Sándor, Hunor and Szántó, Zoltán and Orbán, Zsolt Levente},\n  booktitle={8th International Conference on Road and Rail Infrastructure (CETRA)},\n  year={2024}\n}"
+    },
+    {
+      "title": "Smartphone–controlled industrial robots: Design and user performance evaluation",
+      "authors": ["Attila Deák", "Zoltán Szántó", "Árpád Fehér", "Lőrinc Márton"],
+      "venue": "2022 IEEE 22nd International Symposium on Computational Intelligence and Informatics (CINTI)",
+      "year": 2022,
+      "doi": "",
+      "bibtex": "@inproceedings{deak2022smartphone,\n  title={Smartphone–controlled industrial robots: Design and user performance evaluation},\n  author={Deák, Attila and Szántó, Zoltán and Fehér, Árpád and Márton, Lőrinc},\n  booktitle={2022 IEEE 22nd International Symposium on Computational Intelligence and Informatics (CINTI)},\n  year={2022}\n}"
+    },
+    {
+      "title": "Cyber attack detection and mitigation: Software defined survivable industrial control systems",
+      "authors": ["Hunor Sándor", "Béla Genge", "Zoltán Szántó", "Lőrinc Márton", "Piroska Haller"],
+      "venue": "International Journal of Critical Infrastructure Protection 25, 152-168",
+      "year": 2019,
+      "doi": "",
+      "bibtex": "@article{sandor2019cyber,\n  title={Cyber attack detection and mitigation: Software defined survivable industrial control systems},\n  author={Sándor, Hunor and Genge, Béla and Szántó, Zoltán and Márton, Lőrinc and Haller, Piroska},\n  journal={International Journal of Critical Infrastructure Protection},\n  volume={25},\n  pages={152--168},\n  year={2019}\n}"
+    },
+    {
+      "title": "Infrastructure and framework for response and reconfiguration in Industry 4.0",
+      "authors": ["Hunor Sándor", "Béla Genge", "Zoltán Szántó"],
+      "venue": "2018 6th International Symposium on Digital Forensic and Security (ISDFS), 1-6",
+      "year": 2018,
+      "doi": "",
+      "bibtex": "@inproceedings{sandor2018infrastructure,\n  title={Infrastructure and framework for response and reconfiguration in Industry 4.0},\n  author={Sándor, Hunor and Genge, Béla and Szántó, Zoltán},\n  booktitle={2018 6th International Symposium on Digital Forensic and Security (ISDFS)},\n  pages={1--6},\n  year={2018}\n}"
+    },
+    {
+      "title": "A Testbed for Performing Security Experiments with Software-Defined Industrial Control Systems",
+      "authors": ["Zoltán Szántó", "Hunor Sándor", "Béla Genge"],
+      "venue": "Proceedings of the Central European Cybersecurity Conference 2018, 1-6",
+      "year": 2018,
+      "doi": "",
+      "bibtex": "@inproceedings{szanto2018testbed,\n  title={A Testbed for Performing Security Experiments with Software-Defined Industrial Control Systems},\n  author={Szántó, Zoltán and Sándor, Hunor and Genge, Béla},\n  booktitle={Proceedings of the Central European Cybersecurity Conference 2018},\n  pages={1--6},\n  year={2018}\n}"
+    },
+    {
+      "title": "Internet-based bilateral teleoperation using a revised time-domain passivity controller",
+      "authors": ["Lőrinc Márton", "Zoltán Szántó", "Tamás Haidegger", "Péter Galambos", "József Kövecses"],
+      "venue": "Acta Polytechnica Hungarica",
+      "year": 2017,
+      "doi": "",
+      "bibtex": "@article{marton2017internet,\n  title={Internet-based bilateral teleoperation using a revised time-domain passivity controller},\n  author={Márton, Lőrinc and Szántó, Zoltán and Haidegger, Tamás and Galambos, Péter and Kövecses, József},\n  journal={Acta Polytechnica Hungarica},\n  year={2017}\n}"
+    },
+    {
+      "title": "Sensor data validation and abnormal behavior detection in the Internet of Things",
+      "authors": ["Hunor Sándor", "Béla Genge", "Zoltán Szántó"],
+      "venue": "2017 16th RoEduNet Conference: Networking in Education and Research (RoEduNet)",
+      "year": 2017,
+      "doi": "",
+      "bibtex": "@inproceedings{sandor2017sensor,\n  title={Sensor data validation and abnormal behavior detection in the Internet of Things},\n  author={Sándor, Hunor and Genge, Béla and Szántó, Zoltán},\n  booktitle={2017 16th RoEduNet Conference: Networking in Education and Research (RoEduNet)},\n  year={2017}\n}"
+    },
+    {
+      "title": "Data transfer regulator for wireless teleoperation",
+      "authors": ["Lőrinc Márton", "Piroska Haller", "Tamás Vajda", "Zoltán Szántó", "Hunor Sándor", "Tamás Szabó"],
+      "venue": "Transactions of the Institute of Measurement and Control 38 (2), 141-149",
+      "year": 2016,
+      "doi": "",
+      "bibtex": "@article{marton2016data,\n  title={Data transfer regulator for wireless teleoperation},\n  author={Márton, Lőrinc and Haller, Piroska and Vajda, Tamás and Szántó, Zoltán and Sándor, Hunor and Szabó, Tamás},\n  journal={Transactions of the Institute of Measurement and Control},\n  volume={38},\n  number={2},\n  pages={141--149},\n  year={2016}\n}"
+    },
+    {
+      "title": "Bilateral Teleoperation in the Presence of Jitter: Communication Performance Evaluation and Control",
+      "authors": ["Piroska Haller", "Lőrinc Márton", "Zoltán Szántó", "Tamás Vajda"],
+      "venue": "Handling Uncertainty and Networked Structure in Robot Control, 291-311",
+      "year": 2016,
+      "doi": "",
+      "bibtex": "@incollection{haller2016bilateral,\n  title={Bilateral Teleoperation in the Presence of Jitter: Communication Performance Evaluation and Control},\n  author={Haller, Piroska and Márton, Lőrinc and Szántó, Zoltán and Vajda, Tamás},\n  booktitle={Handling Uncertainty and Networked Structure in Robot Control},\n  pages={291--311},\n  year={2016}\n}"
+    },
+    {
+      "title": "Nonlinear PI rate control in bottleneck links: Application to teleoperation systems",
+      "authors": ["Lőrinc Márton", "Piroska Haller", "Tamás Vajda", "Zoltán Szántó"],
+      "venue": "IFAC-PapersOnLine 48 (22), 14-19",
+      "year": 2015,
+      "doi": "",
+      "bibtex": "@article{marton2015nonlinear,\n  title={Nonlinear PI rate control in bottleneck links: Application to teleoperation systems},\n  author={Márton, Lőrinc and Haller, Piroska and Vajda, Tamás and Szántó, Zoltán},\n  journal={IFAC-PapersOnLine},\n  volume={48},\n  number={22},\n  pages={14--19},\n  year={2015}\n}"
+    },
+    {
+      "title": "Network controller for teleoperated mobile robotic agents",
+      "authors": ["Lőrinc Márton", "Piroska Haller", "Tamás Szabó", "Hunor Sándor", "Tamás Vajda", "Zoltán Szántó"],
+      "venue": "Intelligent Autonomous Systems 13: Proceedings of the 13th International Conference (IAS-13)",
+      "year": 2015,
+      "doi": "",
+      "bibtex": "@inproceedings{marton2015network,\n  title={Network controller for teleoperated mobile robotic agents},\n  author={Márton, Lőrinc and Haller, Piroska and Szabó, Tamás and Sándor, Hunor and Vajda, Tamás and Szántó, Zoltán},\n  booktitle={Intelligent Autonomous Systems 13: Proceedings of the 13th International Conference (IAS-13)},\n  year={2015}\n}"
+    },
+    {
+      "title": "Investigation of robotic swarms with partial team-goal knowledge",
+      "authors": ["Zoltán Szántó", "Lőrinc Márton", "Szabolcs György", "Timotei István Erdei"],
+      "venue": "2015 IEEE 19th International Conference on Intelligent Engineering Systems (INES)",
+      "year": 2015,
+      "doi": "",
+      "bibtex": "@inproceedings{szanto2015investigation,\n  title={Investigation of robotic swarms with partial team-goal knowledge},\n  author={Szántó, Zoltán and Márton, Lőrinc and György, Szabolcs and Erdei, Timotei István},\n  booktitle={2015 IEEE 19th International Conference on Intelligent Engineering Systems (INES)},\n  year={2015}\n}"
+    },
+    {
+      "title": "Target following approach for self-organized swarms based on color information",
+      "authors": ["Zoltán Szántó", "Lőrinc Márton", "Gábor Sebestyén", "Fehér István"],
+      "venue": "2015 16th IEEE International Symposium on Computational Intelligence and Informatics (CINTI)",
+      "year": 2015,
+      "doi": "",
+      "bibtex": "@inproceedings{szanto2015target,\n  title={Target following approach for self-organized swarms based on color information},\n  author={Szántó, Zoltán and Márton, Lőrinc and Sebestyén, Gábor and István, Fehér},\n  booktitle={2015 16th IEEE International Symposium on Computational Intelligence and Informatics (CINTI)},\n  year={2015}\n}"
+    },
+    {
+      "title": "Communication delay and jitter influence on bilateral teleoperation",
+      "authors": ["Lőrinc Márton", "Zoltán Szántó", "Tamás Vajda", "Piroska Haller", "Hunor Sándor", "Tamás Szabó", "Levente Tamás"],
+      "venue": "22nd Mediterranean Conference on Control and Automation, 1171-1176",
+      "year": 2014,
+      "doi": "",
+      "bibtex": "@inproceedings{marton2014communication,\n  title={Communication delay and jitter influence on bilateral teleoperation},\n  author={Márton, Lőrinc and Szántó, Zoltán and Vajda, Tamás and Haller, Piroska and Sándor, Hunor and Szabó, Tamás and Tamás, Levente},\n  booktitle={22nd Mediterranean Conference on Control and Automation},\n  pages={1171--1176},\n  year={2014}\n}"
+    },
+    {
+      "title": "Bilateral teleoperation of wheeled mobile robots working in common workspace",
+      "authors": ["Lőrinc Márton", "Zoltán Szántó", "Piroska Haller", "Hunor Sándor", "Tamás Szabó", "Tamás Vajda"],
+      "venue": "IAES International Journal of Robotics and Automation (IJRA) 3 (1), 62-74",
+      "year": 2014,
+      "doi": "",
+      "bibtex": "@article{marton2014bilateral,\n  title={Bilateral teleoperation of wheeled mobile robots working in common workspace},\n  author={Márton, Lőrinc and Szántó, Zoltán and Haller, Piroska and Sándor, Hunor and Szabó, Tamás and Vajda, Tamás},\n  journal={IAES International Journal of Robotics and Automation (IJRA)},\n  volume={3},\n  number={1},\n  pages={62--74},\n  year={2014}\n}"
+    },
+    {
+      "title": "Supervised robot groups with reconfigurable formation: Theory and simulations",
+      "authors": ["Zoltán Szántó", "Lőrinc Márton", "Szabolcs György"],
+      "venue": "International Conference on Simulation of Adaptive Behavior, 280-289",
+      "year": 2014,
+      "doi": "",
+      "bibtex": "@inproceedings{szanto2014supervised,\n  title={Supervised robot groups with reconfigurable formation: Theory and simulations},\n  author={Szántó, Zoltán and Márton, Lőrinc and György, Szabolcs},\n  booktitle={International Conference on Simulation of Adaptive Behavior},\n  pages={280--289},\n  year={2014}\n}"
+    },
+    {
+      "title": "Teleoperated mobile robot groups with reconfigurable formation",
+      "authors": ["Zoltán Szántó", "Lőrinc Márton", "Szabolcs György"],
+      "venue": "2014 IEEE International Conference on Autonomous Robot Systems and Competitions (ICARSC)",
+      "year": 2014,
+      "doi": "",
+      "bibtex": "@inproceedings{szanto2014teleoperated,\n  title={Teleoperated mobile robot groups with reconfigurable formation},\n  author={Szántó, Zoltán and Márton, Lőrinc and György, Szabolcs},\n  booktitle={2014 IEEE International Conference on Autonomous Robot Systems and Competitions (ICARSC)},\n  year={2014}\n}"
+    },
+    {
+      "title": "The effect of JPEG compression on network controller designed for teleoperation system",
+      "authors": ["Tamás Vajda", "Lőrinc Márton", "Zoltán Szántó", "Piroska Haller"],
+      "venue": "2014 IEEE 10th International Conference on Intelligent Computer Communication and Processing (ICCP)",
+      "year": 2014,
+      "doi": "",
+      "bibtex": "@inproceedings{vajda2014effect,\n  title={The effect of JPEG compression on network controller designed for teleoperation system},\n  author={Vajda, Tamás and Márton, Lőrinc and Szántó, Zoltán and Haller, Piroska},\n  booktitle={2014 IEEE 10th International Conference on Intelligent Computer Communication and Processing (ICCP)},\n  year={2014}\n}"
+    },
+    {
+      "title": "Performance analysis of WLAN based mobile robot teleoperation",
+      "authors": ["Zoltán Szántó", "Lőrinc Márton", "Piroska Haller", "Szabolcs György"],
+      "venue": "2013 IEEE 9th International Conference on Intelligent Computer Communication and Processing (ICCP)",
+      "year": 2013,
+      "doi": "",
+      "bibtex": "@inproceedings{szanto2013performance,\n  title={Performance analysis of WLAN based mobile robot teleoperation},\n  author={Szántó, Zoltán and Márton, Lőrinc and Haller, Piroska and György, Szabolcs},\n  booktitle={2013 IEEE 9th International Conference on Intelligent Computer Communication and Processing (ICCP)},\n  year={2013}\n}"
+    },
+    {
+      "title": "Video supported bilateral teleoperation system: Design and implementation",
+      "authors": ["Hunor Sándor", "Tamás Szabó", "Tamás Vajda", "Piroska Haller", "Zoltán Szántó", "Lőrinc Márton"],
+      "venue": "2013 IEEE 14th International Symposium on Computational Intelligence and Informatics (CINTI)",
+      "year": 2013,
+      "doi": "",
+      "bibtex": "@inproceedings{sandor2013video,\n  title={Video supported bilateral teleoperation system: Design and implementation},\n  author={Sándor, Hunor and Szabó, Tamás and Vajda, Tamás and Haller, Piroska and Szántó, Zoltán and Márton, Lőrinc},\n  booktitle={2013 IEEE 14th International Symposium on Computational Intelligence and Informatics (CINTI)},\n  year={2013}\n}"
+    },
+    {
+      "title": "Communication Performance Evaluation of Bilateral Teleoperation systems Implemented over WLAN",
+      "authors": ["Piroska Haller", "Tamás Vajda", "Zoltán Szántó", "Lőrinc Márton"],
+      "venue": "",
+      "year": 2013,
+      "doi": "",
+      "bibtex": "@inproceedings{haller2013communication,\n  title={Communication Performance Evaluation of Bilateral Teleoperation systems Implemented over WLAN},\n  author={Haller, Piroska and Vajda, Tamás and Szántó, Zoltán and Márton, Lőrinc},\n  year={2013}\n}"
+    },
+    {
+      "title": "Robot control using Q-Learning",
+      "authors": ["Zoltán Szántó"],
+      "venue": "Scientific Bulletin of the \"Petru Maior\" University of Targu Mures 9 (1), 28",
+      "year": 2012,
+      "doi": "",
+      "bibtex": "@article{szanto2012robot,\n  title={Robot control using Q-Learning},\n  author={Szántó, Zoltán},\n  journal={Scientific Bulletin of the \"Petru Maior\" University of Targu Mures},\n  volume={9},\n  number={1},\n  pages={28},\n  year={2012}\n}"
+    }
+  ]
+}

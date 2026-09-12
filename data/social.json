@@ -1,0 +1,34 @@
+{
+  "socialLinks": [
+    {
+      "platform": "Email",
+      "url": "mailto:zoltan.szanto@ms.sapientia.ro",
+      "icon": "email"
+    },
+    {
+      "platform": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=qUaj68wAAAAJ",
+      "icon": "googleScholar"
+    },
+    {
+      "platform": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Zoltan_Szanto2",
+      "icon": "researchgate"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/zszanto",
+      "icon": "github"
+    },
+    {
+      "platform": "GitLab",
+      "url": "https://gitlab.com/zszanto",
+      "icon": "gitlab"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/channel/UCr5gZCi8ZeS6IMVJ13ursOw",
+      "icon": "youtube"
+    }
+  ]
+}

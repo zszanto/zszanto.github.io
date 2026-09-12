@@ -1,0 +1,20 @@
+{
+  "videos": [
+    {
+      "title": "Ericsson BME 5G - Robotic Assembly Project",
+      "youtubeId": "ZDwt2-OIh0A"
+    },
+    {
+      "title": "KUKA youBot Bilateral Teleoperation (Budapest–Tg. Mureș)",
+      "youtubeId": "GZc91hkW-y4"
+    },
+    {
+      "title": "Sapi3D Model",
+      "youtubeId": "UEfUexmiiak"
+    },
+    {
+      "title": "SapiLineTracer Robot Competition (v1, 2015)",
+      "youtubeId": "mY4RXJpvegg"
+    }
+  ]
+}
