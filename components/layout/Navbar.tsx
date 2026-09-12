@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import videos from '@/data/videos.json'
 import type { Bio } from '@/utils/data'
 import ThemeToggle from '@/components/ThemeToggle'
 import SearchModal from '@/components/SearchModal'
@@ -34,7 +35,11 @@ const NAV_ITEMS: ReadonlyArray<NavItem> = [
     id: 'publications',
     kind: 'anchor',
   },
-  { label: 'Videos', href: '#videos', id: 'videos', kind: 'anchor' },
+  // The home-page Videos section only renders when videos.json is non-empty —
+  // keep the nav in sync so the link never dead-ends.
+  ...(videos.videos.length > 0
+    ? [{ label: 'Videos', href: '#videos', id: 'videos', kind: 'anchor' as const }]
+    : []),
   // The Road lives on its own page — a route link, highlighted by pathname.
   { label: 'The Road', href: '/road', kind: 'route' },
   { label: 'Contact', href: '#contact', id: 'contact', kind: 'anchor' },
