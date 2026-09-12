@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "overrides": {
+    "next": {
+      "postcss": "^8.5.28"
+    }
+  },
   "dependencies": {
     "next": "^15.5.24",
     "react": "^19.3.0",
