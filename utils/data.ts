@@ -18,9 +18,7 @@ export interface Bio {
 }
 
 export interface Interests {
-  /** Short lead sentence describing the current direction. */
-  intro?: string
-  /** Emphasized, current focus areas. */
+  /** Emphasized, current focus areas — shown as accented tags. */
   focus: string[]
   /** Longstanding interests, shown as secondary tags. */
   ongoing: string[]

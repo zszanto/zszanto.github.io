@@ -30,11 +30,7 @@ export default function Home() {
     <>
       <Hero bio={bio as Bio} social={social.socialLinks as SocialLink[]} />
       <Biography bio={bio as Bio} />
-      <Interests
-        intro={interests.intro}
-        focus={interests.focus}
-        ongoing={interests.ongoing}
-      />
+      <Interests focus={interests.focus} ongoing={interests.ongoing} />
       <Projects projects={projects.projects as Project[]} />
       <Publications publications={publications.publications as Publication[]} />
       <Teaching teaching={teaching as TeachingType} />
