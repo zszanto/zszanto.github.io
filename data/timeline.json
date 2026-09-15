@@ -1,6 +1,38 @@
 {
   "entries": [
     {
+      "title": "Myrtle Beach",
+      "startDate": "2007",
+      "location": "Myrtle Beach, USA",
+      "lat": 33.6891,
+      "lng": -78.8867,
+      "images": [
+        {
+          "src": "/images/road/tanyer-2007.jpg",
+          "alt": "Myrtle Beach placeholder photo 1"
+        },
+        {
+          "src": "/images/road/tengeri-csiko-2007.jpg",
+          "alt": "Myrtle Beach placeholder photo 2"
+        }
+      ]
+    },
+
+    {
+      "title": "Myrtle Beach",
+      "startDate": "2005",
+      "location": "Myrtle Beach, USA",
+      "lat": 33.6891,
+      "lng": -78.8867,
+      "images": [
+        {
+          "src": "/images/road/fekete-2005.jpg",
+          "alt": "Myrtle Beach placeholder photo"
+        }
+      ]
+    },
+
+    {
       "organization": "UiT The Arctic University of Norway",
       "startDate": "2024",
       "location": "Narvik, Norway",
