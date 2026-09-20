@@ -117,7 +117,11 @@ export interface TeachingCourse {
   summary?: string
   attendance: string
   topics: string[]
-  laboratory?: string
+  /** Plain paragraph, or bullet items with optional trailing links and periods. */
+  laboratory?: string | {
+    text: string
+    link?: CourseMaterial
+  }[]
   /** Project instructions followed by a linked guide on the course page. */
   project?: {
     text: string

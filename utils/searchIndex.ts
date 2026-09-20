@@ -220,7 +220,12 @@ const COURSE_ENTRIES: SearchEntry[] = typedTeaching.courses.map((course) =>
       course.level ?? '',
       ...course.topics,
       course.attendance,
-      course.laboratory ?? '',
+      ...(typeof course.laboratory === 'string'
+        ? [course.laboratory]
+        : (course.laboratory ?? []).flatMap((item) => [
+            item.text,
+            item.link?.label ?? '',
+          ])),
     ],
   }),
 )

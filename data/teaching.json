@@ -15,7 +15,18 @@
         "Software architecture",
         "Software testing"
       ],
-      "laboratory": "Attendance is mandatory. Lab assignments, with optional homework and presentations for extra credit, and a project.",
+      "laboratory": [
+        {
+          "text": "Attendance is mandatory. View the",
+          "link": {
+            "label": "attendance list",
+            "url": "https://docs.google.com/spreadsheets/d/1yX_fk9txWESbo1EXWv2M2Eve8k-2JRRdVaXZiOpKRdM/edit?usp=sharing"
+          }
+        },
+        {
+          "text": "Lab assignments, with optional homework and presentations for extra credit, and a project."
+        }
+      ],
       "project": {
         "text": "Follow this",
         "guide": {
