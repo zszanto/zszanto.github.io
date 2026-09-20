@@ -137,12 +137,6 @@ export default function TeachingFull({ teaching }: TeachingFullProps) {
             </div>
           ))}
         </div>
-
-        {studentCorner.lastUpdated && (
-          <p className="text-xs text-gray-400 dark:text-gray-500 mt-6">
-            Last updated on {studentCorner.lastUpdated}
-          </p>
-        )}
       </div>
     </div>
   )

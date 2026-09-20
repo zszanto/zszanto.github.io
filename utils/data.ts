@@ -131,7 +131,6 @@ export interface TeachingCourse {
   grading?: string
   /** Optional slides / notes / repos shown on the course page. */
   materials?: CourseMaterial[]
-  lastUpdated?: string
 }
 
 /** Categorizes a Student Corner link for grouping and icon selection. */
@@ -157,7 +156,6 @@ export interface StudentCornerLink {
 
 export interface StudentCorner {
   title: string
-  lastUpdated?: string
   links: StudentCornerLink[]
 }
 

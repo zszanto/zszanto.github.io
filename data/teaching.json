@@ -33,8 +33,7 @@
           "label": "guide",
           "url": "https://docs.google.com/document/d/11_RNV4kJnY_-Fnkn0k9MYLvKG5Lr7qyIut5N1QJBsss/edit?usp=sharing"
         }
-      },
-      "lastUpdated": "Sep 24, 2025"
+      }
     },
     {
       "slug": "vv",
@@ -48,8 +47,7 @@
         "User testing: alpha testing, beta testing, acceptance testing",
         "Test doubles: dummy object, test stub, test spy, mock objects"
       ],
-      "laboratory": "Laboratory sessions accompany the course.",
-      "lastUpdated": "Sep 24, 2025"
+      "laboratory": "Laboratory sessions accompany the course."
     },
     {
       "slug": "se-msc",
@@ -64,13 +62,11 @@
         "Advanced design patterns",
         "Optional types"
       ],
-      "laboratory": "Lab & Project — follow the provided guide.",
-      "lastUpdated": "Sep 24, 2025"
+      "laboratory": "Lab & Project — follow the provided guide."
     }
   ],
   "studentCorner": {
     "title": "Student corner",
-    "lastUpdated": "Jun 2, 2026",
     "links": [
       {
         "label": "Sapientia University's rules and regulations (HUN)",

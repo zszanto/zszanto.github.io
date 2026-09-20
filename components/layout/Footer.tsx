@@ -16,7 +16,7 @@ export default function Footer({ bio }: FooterProps) {
         <p>
           © {year} {bio?.name ?? ''}
         </p>
-        <p>Updated {BUILD_DATE}</p>
+        <p>Site updated {BUILD_DATE}</p>
       </div>
     </footer>
   )
