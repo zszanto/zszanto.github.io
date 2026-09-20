@@ -77,6 +77,24 @@ export default async function CoursePage({
         </section>
       )}
 
+      {course.project && (
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold mb-3">Project</h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            {course.project.text}{' '}
+            <a
+              href={course.project.guide.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 underline hover:text-blue-700 dark:hover:text-blue-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+            >
+              {course.project.guide.label}
+            </a>
+            .
+          </p>
+        </section>
+      )}
+
       {course.grading && (
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-3">Grading</h2>

@@ -16,6 +16,13 @@
         "Software testing"
       ],
       "laboratory": "Attendance is mandatory. Lab assignments, with optional homework and presentations for extra credit, and a project.",
+      "project": {
+        "text": "Follow this",
+        "guide": {
+          "label": "guide",
+          "url": "https://docs.google.com/document/d/11_RNV4kJnY_-Fnkn0k9MYLvKG5Lr7qyIut5N1QJBsss/edit?usp=sharing"
+        }
+      },
       "lastUpdated": "Sep 24, 2025"
     },
     {
@@ -65,7 +72,7 @@
       {
         "label": "Collection of SE books",
         "url": "https://drive.google.com/drive/folders/1NzvZxLtkKNLGXLXAxwltNWfZAPzrP4bU?usp=sharing",
-        "description": "Curated software engineering ebooks and references (Google Drive).",
+        "description": "Curated software engineering ebooks and references.",
         "category": "Resources",
         "type": "drive",
         "keywords": ["books", "ebooks", "reading", "literature", "software engineering"]
@@ -73,7 +80,7 @@
       {
         "label": "Collection of SE videos",
         "url": "https://drive.google.com/drive/folders/1ba50iOvKAHcGGGxjktL4xUaCVs-bezUF?usp=sharing",
-        "description": "Lecture-supporting video material (Google Drive).",
+        "description": "Lecture-supporting video material.",
         "category": "Resources",
         "type": "drive",
         "keywords": ["videos", "lectures", "recordings", "tutorials"]
@@ -89,7 +96,7 @@
       {
         "label": "Previous works",
         "url": "https://drive.google.com/drive/folders/1IXYDUxlucc8gAWECrkUVvz-bTd3owIYC?usp=sharing",
-        "description": "Examples of past student theses and projects (Google Drive).",
+        "description": "Examples of past student theses.",
         "category": "Thesis",
         "type": "drive",
         "keywords": ["previous works", "examples", "past theses", "samples"]

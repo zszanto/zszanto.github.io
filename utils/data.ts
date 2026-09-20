@@ -118,6 +118,11 @@ export interface TeachingCourse {
   attendance: string
   topics: string[]
   laboratory?: string
+  /** Project instructions followed by a linked guide on the course page. */
+  project?: {
+    text: string
+    guide: CourseMaterial
+  }
   /** How the course is graded. */
   grading?: string
   /** Optional slides / notes / repos shown on the course page. */
