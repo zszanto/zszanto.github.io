@@ -19,15 +19,26 @@
     },
 
     {
-      "title": "Myrtle Beach",
-      "startDate": "2005",
-      "location": "Myrtle Beach, USA",
-      "lat": 33.6891,
-      "lng": -78.8867,
+      "title": "Home",
+      "startDate": "2000",
       "images": [
         {
           "src": "/images/road/fekete-2005.jpg",
-          "alt": "Myrtle Beach placeholder photo"
+          "alt": "Home"
+        }
+      ]
+    },
+
+    {
+      "title": "OTDK kitűző",
+      "startDate": "2025",
+      "location": "Ludovika Huszár Lovarda",
+      "images": [
+        {
+          "src": "/images/road/otdk-kituzo-2025-1.jpg"
+        },
+        {
+          "src": "/images/road/otdk-kituzo-2025-2.jpeg"
         }
       ]
     },
