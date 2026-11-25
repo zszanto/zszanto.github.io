@@ -68,6 +68,33 @@ export default async function CoursePage({
         </ul>
       </section>
 
+      {course.course && course.course.length > 0 && (
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold mb-3">Course</h2>
+          <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1.5">
+            {course.course.map((item) => (
+              <li key={item.text}>
+                {item.text}
+                {item.link && (
+                  <>
+                    {' '}
+                    <a
+                      href={item.link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 dark:text-blue-400 underline hover:text-blue-700 dark:hover:text-blue-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                    >
+                      {item.link.label}
+                    </a>
+                    .
+                  </>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {course.laboratory && (
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-3">Laboratory</h2>

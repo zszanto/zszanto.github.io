@@ -15,6 +15,15 @@
         "Software architecture",
         "Software testing"
       ],
+      "course": [
+        {
+          "text": "View the",
+          "link": {
+            "label": "course materials",
+            "url": "https://drive.google.com/drive/folders/1fKFEWrCDNUx1tvXhD7yPY6N0kAOODEyi?usp=sharing"
+          }
+        }
+      ],
       "laboratory": [
         {
           "text": "Attendance is mandatory. View the",
